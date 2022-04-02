@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.advisingv2.ui.resourcez.ResourcesFragment"
+        android:label="@string/menu_resources"
+        tools:layout="@layout/fragment_resources" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.advisingv2.ui.advisingCalendar.AdvisingCalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_advising_calendar" />
+    <activity
+        android:id="@+id/utilitiesActivity"
+        android:name="com.example.advisingv2.UtilitiesActivity"
+        android:label="activity_utilities"
+        tools:layout="@layout/activity_utilities" />
+
+</navigation>

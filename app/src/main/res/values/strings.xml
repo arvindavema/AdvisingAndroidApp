@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AdvisingV2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">UMD CS Advising App</string>
+    <string name="nav_header_subtitle">Your personal pocket advisor</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_resources">Resources</string>
+    <string name="menu_gallery">Tools</string>
+    <string name="menu_calendar">Advising Calendar</string>
+    <string name="gpa_tab">GPA Calculator</string>
+    <string name="course_requests">Course Request Form</string>
+    <string name="four_year_plan">4 Year Plan</string>
+    <string name="title_activity_utilities">UtilitiesActivity</string>
+
+
+</resources>
