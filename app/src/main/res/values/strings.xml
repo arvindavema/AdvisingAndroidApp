@@ -14,6 +14,23 @@
     <string name="course_requests">Course Request Form</string>
     <string name="four_year_plan">4 Year Plan</string>
     <string name="title_activity_utilities">UtilitiesActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <string name="undergrad_overview">At the Department of Computer Science, undergraduates are a priority. Here, you will meet 3,400 (and counting) of the nation\'s top computer science majors. This diverse group of students has interests ranging from systems to programming languages, from algorithms to design and from VR to Robotics. While you are an undergraduate here, you will study fundamentals in computing including programming languages and theory, which will help you later in a variety of courses we offer at the 400-level. After taking classes, perhaps doing research, participating in our honors program, or studying abroad, and completing internships, our students go on to some of the best graduate programs in the world or join start-ups, small and large tech companies, consulting firms, or government organizations.</string>
+    <string name="undergrad_overview_title">Undergraduate Studies in Computer Science at the University of Maryland</string>
+
+    <string name="contact_us">Contact Us!!</string>
+    <string name="address">1st Floor, Brendan Iribe Center for Computer Science and Engineering</string>
+    <string name="phone">(301) 405–2672</string>
+    <string name="ugrad_email">ugrad@cs.umd.edu</string>
+    <string name="hours">Monday - Friday 8:30 AM to 4:30 PM</string>
+    <string name="socials">Facebook / Instagram / Twitter</string>
+
+    <string name="advisors_title">Academic Advisors</string>
+    <string name="contact_extra">Part of the Department of Computer Science Brendan Iribe Center for Computer Science and Engineering University of Maryland 8125 Paint Branch Drive College Park, MD 20742 (301) 405–2662</string>
+    <string name="head_title">Heads of Staff</string>
+    <string name="peers_title">Undergraduate Peer Advising Team</string>
 
 </resources>
