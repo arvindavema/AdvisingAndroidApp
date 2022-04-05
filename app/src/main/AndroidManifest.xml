@@ -9,11 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AdvisingV2">
-        <activity
-            android:name=".UtilitiesActivity"
-            android:exported="false"
-            android:label="@string/title_activity_utilities"
-            android:theme="@style/Theme.AdvisingV2.NoActionBar" />
+
 
         <activity
             android:name=".MainActivity"

@@ -8,32 +8,32 @@
     <fragment
         android:id="@+id/advisingCalendar"
         android:name="com.example.advisingv2.CalendarFragment"
-        android:label="advisingCalendar"
+        android:label="Advising Calendar"
         tools:layout="@layout/fragment_calendar" />
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.advisingv2.ContactFragment"
-        android:label="contact"
+        android:label="Contact Us"
         tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/welcomeFragment"
         android:name="com.example.advisingv2.WelcomeFragment"
-        android:label="welcome"
+        android:label="Home"
         tools:layout="@layout/fragment_welcome" />
     <fragment
         android:id="@+id/courseRequestFragment"
         android:name="com.example.advisingv2.CourseRequestFragment"
-        android:label="fragment_course_request"
+        android:label="Course Request Form"
         tools:layout="@layout/fragment_course_request" />
     <fragment
         android:id="@+id/gpaCalculatorFragment"
         android:name="com.example.advisingv2.GpaCalculatorFragment"
-        android:label="fragment_gpa_calculator"
+        android:label="GPA Calculator"
         tools:layout="@layout/fragment_gpa_calculator" />
     <fragment
         android:id="@+id/fouryearplanFragment"
         android:name="com.example.advisingv2.FouryearplanFragment"
-        android:label="fragment_fouryearplan"
+        android:label="4 Year Plan"
         tools:layout="@layout/fragment_fouryearplan" />
 
 </navigation>

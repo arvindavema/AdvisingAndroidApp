@@ -33,4 +33,12 @@
     <string name="head_title">Heads of Staff</string>
     <string name="peers_title">Undergraduate Peer Advising Team</string>
 
+
+    <string name="gpa_anticipated_header">Anticipated GPA Calculator</string>
+    <string name="semester_gpa">Semester GPA:</string>
+    <string name="cumulative_gpa">Cumulative GPA:</string>
+    <string name="gpa_semester_help">To calculate your anticipated semester GPA:\n\t1. Press the "Add Course" Button to add a course to the calculator\n\t2. Enter the course name, number of credits, and grade.\n\t3. Press the ENTER button to add this course\n\t4. Repeat steps 1 through 3 for each course you are attempting</string>
+    <string name="gpa_cumulative_help">To calculate your cumulative GPA:\n\t1. Enter your cumulative attempted credits (1–999)\n\t2. Enter your cumulative GPA between 0.0 and 4.0 </string>
+    <string name="add_course">Add Course</string>
+    <string name="semester_gpa_0_0">Semester GPA: 0.0</string>
 </resources>

@@ -9,7 +9,6 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_resources" />
 
-
         <item
             android:id="@+id/advisingCalendar"
             android:icon="@drawable/ic_menu_slideshow"
