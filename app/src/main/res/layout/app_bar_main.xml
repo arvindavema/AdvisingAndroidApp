@@ -10,15 +10,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/primary"
+        android:fitsSystemWindows="true"
         android:theme="@style/Theme.AdvisingV2.AppBarOverlay"
         app:liftOnScroll="true">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
             android:visibility="visible"
-            app:popupTheme="@style/Theme.AdvisingV2.PopupOverlay" />
+            app:popupTheme="@style/Theme.AdvisingV2.PopupOverlay"
+            app:titleTextColor="@color/design_default_color_on_primary" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

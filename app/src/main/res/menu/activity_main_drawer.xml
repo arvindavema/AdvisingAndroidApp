@@ -4,38 +4,32 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/welcomeFragment"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/menu_resources" />
-
         <item
             android:id="@+id/advisingCalendar"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_baseline_calendar_month_24"
             android:title="@string/menu_calendar" />
-
-
+        <item
+            android:id="@+id/contactFragment"
+            android:icon="@drawable/ic_outline_contact_mail_24"
+            android:title="@string/contact_us" />
         <item
             android:id="@+id/gpaCalculatorFragment"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_gpa_24"
             android:title="@string/gpa_tab" />
-
-
         <item
             android:id="@+id/fouryearplanFragment"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_gpa_24"
             android:title="@string/four_year_plan" />
-
 
         <item
             android:id="@+id/courseRequestFragment"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_baseline_assignment_24"
             android:title="@string/course_requests" />
-
-        <item
-            android:id="@+id/contactFragment"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/contact_us" />
 
     </group>
 </menu>

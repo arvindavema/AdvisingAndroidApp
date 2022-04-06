@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeFragment">
+    tools:context=".DashboardFragment">
     <!--TODO: add overview, contact, advisot contacts, and head of staff contact + -peer advisors -->
     
     <!-- TODO: Update blank fragment layout -->

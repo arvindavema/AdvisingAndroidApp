@@ -17,8 +17,8 @@
         tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.example.advisingv2.WelcomeFragment"
-        android:label="Home"
+        android:name="com.example.advisingv2.DashboardFragment"
+        android:label="Dashboard"
         tools:layout="@layout/fragment_welcome" />
     <fragment
         android:id="@+id/courseRequestFragment"

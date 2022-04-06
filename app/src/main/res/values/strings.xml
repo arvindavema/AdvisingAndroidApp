@@ -41,4 +41,7 @@
     <string name="gpa_cumulative_help">To calculate your cumulative GPA:\n\t1. Enter your cumulative attempted credits (1–999)\n\t2. Enter your cumulative GPA between 0.0 and 4.0 </string>
     <string name="add_course">Add Course</string>
     <string name="semester_gpa_0_0">Semester GPA: 0.0</string>
+    <string name="letter_grade_hint">+/- Letter Grade</string>
+    <string name="course_name_hint">Course Name</string>
+    <string name="calculate_cumulative">Calculate Cumulative</string>
 </resources>

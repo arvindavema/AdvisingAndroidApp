@@ -5,7 +5,11 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
+    android:animateLayoutChanges="true"
+    android:hapticFeedbackEnabled="true"
+    android:soundEffectsEnabled="true"
+    android:splitMotionEvents="true"
+    android:theme="@style/Theme.AdvisingV2"
     tools:openDrawer="start">
 
     <include
@@ -18,8 +22,19 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start"
+        android:layout_gravity="start|center_horizontal"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:elevation="1dp"
         android:fitsSystemWindows="true"
+        android:maxWidth="320dp"
+        android:textAlignment="gravity"
+        app:elevation="1dp"
         app:headerLayout="@layout/nav_header_main"
+        app:itemHorizontalPadding="20dp"
+        app:itemIconTint="@color/secondary_dark"
+        app:itemShapeFillColor="@color/white"
+        app:itemTextAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:itemTextColor="@color/secondary_dark"
         app:menu="@menu/activity_main_drawer" />
 </androidx.drawerlayout.widget.DrawerLayout>

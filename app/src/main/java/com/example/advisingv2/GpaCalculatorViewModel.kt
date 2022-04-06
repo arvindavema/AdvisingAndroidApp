@@ -1,9 +1,20 @@
 package com.example.advisingv2
 
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class GpaCalculatorViewModel : ViewModel() {
 	// TODO: Implement the ViewModel
+	
+	//Text that lists the courses that the user has inputted
+	val currSemOutput: MutableLiveData<String> by lazy {
+		MutableLiveData<String>()
+	}
+	
+	val currSemGpa: MutableLiveData<Double> by lazy {
+		MutableLiveData<Double>()
+	}
+	
 	
 	
 	private fun gradeToGpa( grade: String): Double {
@@ -26,13 +37,12 @@ class GpaCalculatorViewModel : ViewModel() {
 			"D-" -> gpa = 0.7
 			"F" -> gpa = 0.0
 		}
-		
 		return gpa
 	}
-	
 	
 	private fun gpaEquation( ){
 		// (Grades * credits)/ credits = gpa
 		
 	}
 }
+data class GPACourse(val name: String, val grade: Double, val credits: Int)

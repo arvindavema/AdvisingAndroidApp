@@ -3,24 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.342" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_gpa_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.206" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_menu_camera.xml" value="0.342" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.342" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.342" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_outline_contact_mail_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_round_add_24.xml" value="0.206" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_university_of_maryland_1.xml" value="0.206" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/ic_utility_24.xml" value="0.342" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/drawable/side_nav_bar.xml" value="0.194" />
-        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/activity_main.xml" value="0.1541372351160444" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/activity_tool.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/activity_utilities.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/content_main.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_advising_calendar.xml" value="0.2151268115942029" />
-        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_calendar.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_calendar.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_contact.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_course_request.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_degree_info.xml" value="0.19427083333333334" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_fouryearplan.xml" value="0.19427083333333334" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_gallery.xml" value="0.1541372351160444" />
-        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_gpa_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_gpa_calculator.xml" value="0.5" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_news_calendar.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_slideshow.xml" value="0.1541372351160444" />
@@ -30,9 +39,10 @@
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_utility.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/fragment_welcome.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/gpa_fragment.xml" value="0.23777173913043478" />
-        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/nav_header_main.xml" value="0.5" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/layout/semester_gpa_dialog.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
-        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/menu/main.xml" value="0.3203125" />
+        <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/menu/main.xml" value="0.1" />
       </map>
     </option>
   </component>
