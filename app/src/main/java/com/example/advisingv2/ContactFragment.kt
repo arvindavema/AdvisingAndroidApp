@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.advisingv2.R
 
 
 // TODO: This is to display all of yhe contact info of important staff and advisors

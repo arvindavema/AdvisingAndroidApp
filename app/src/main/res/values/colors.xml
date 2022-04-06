@@ -10,7 +10,7 @@
 
     
     <color name="primary">#d50000</color>
-    <color name="primary_light">#ff5131</color>
+    <color name="primary_light">#FF4081</color>
     <color name="primary_dark">#9c0000</color>
     <color name="secondary">#78909c</color>
     <color name="secondary_light">#a7c0cd</color>

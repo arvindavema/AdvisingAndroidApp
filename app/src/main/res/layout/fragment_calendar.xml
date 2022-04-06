@@ -6,8 +6,18 @@
     tools:context=".CalendarFragment">
 
 
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        style="?attr/materialCardViewElevatedStyle">
+
+
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+
+    </com.google.android.material.card.MaterialCardView>
 </FrameLayout>

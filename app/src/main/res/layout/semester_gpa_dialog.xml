@@ -60,6 +60,18 @@
             android:textCursorDrawable="?android:attr/textCursorDrawable"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/numCreditsInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/numCredits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="num credits" />
+    </com.google.android.material.textfield.TextInputLayout>
     <!--    <EditText-->
     <!--        android:id="@+id/courseNameEditText"-->
     <!--        android:layout_width="match_parent"-->

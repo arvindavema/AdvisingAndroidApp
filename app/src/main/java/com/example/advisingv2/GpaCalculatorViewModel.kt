@@ -7,14 +7,17 @@ class GpaCalculatorViewModel : ViewModel() {
 	// TODO: Implement the ViewModel
 	
 	//Text that lists the courses that the user has inputted
-	val currSemOutput: MutableLiveData<String> by lazy {
-		MutableLiveData<String>()
+	val semesterUserInput = MutableLiveData<String>().apply {
+		value = ""
 	}
 	
-	val currSemGpa: MutableLiveData<Double> by lazy {
-		MutableLiveData<Double>()
+	val currSemGpa = MutableLiveData<Double>().apply {
+		value = 0.0
 	}
 	
+	val totalCredits = MutableLiveData<Int>().apply{
+		value = 0
+	}
 	
 	
 	private fun gradeToGpa( grade: String): Double {
