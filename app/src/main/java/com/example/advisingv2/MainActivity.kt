@@ -1,5 +1,4 @@
 package com.example.advisingv2
-
 import android.os.Bundle
 import android.view.Menu
 import androidx.appcompat.app.AppCompatActivity
@@ -9,9 +8,21 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.room.*
 import com.example.advisingv2.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+
+@Entity
+data class Course(
+    @PrimaryKey val id: String,
+    @ColumnInfo(name = "name") val name: String,
+    @ColumnInfo(name = "description") val description: String,
+    @ColumnInfo(name="credits") val credits: Int,
+    @ColumnInfo(name="dept_id") val dept_id: String,
+    
+)
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -63,6 +74,5 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 }
-
 
 
