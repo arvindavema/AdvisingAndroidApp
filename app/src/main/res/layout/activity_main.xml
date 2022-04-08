@@ -19,8 +19,14 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/activity_main_drawer"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:hapticFeedbackEnabled="false"
         app:headerLayout="@layout/nav_header_main"
-        android:fitsSystemWindows="true" />
+        app:itemIconTint="@color/primary"
+        app:itemTextAppearance="@android:style/TextAppearance.Material.Widget.Button"
+        app:itemTextColor="@color/primary"
+        app:menu="@menu/activity_main_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

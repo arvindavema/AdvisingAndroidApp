@@ -2,7 +2,7 @@
     <string name="app_name">AdvisingV2</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">UMD CS Advising App</string>
+    <string name="nav_header_title">UMD CS Advising</string>
     <string name="nav_header_subtitle">Your personal pocket advisor</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
@@ -48,8 +48,8 @@
 
     <string name="home">Dashboard</string>
     <string name="calendar">Upcoming</string>
-    <string name="notifications">Activity</string>
-    <string name="tools">Advising Tools</string>
+    <string name="notifications">Inbox</string>
+    <string name="tools">Settings</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -140,4 +140,6 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="inbox">inbox</string>
+    <string name="your_current_semester">Your Current Semester</string>
+    <string name="my_four_year_plan">My Four Year Plan</string>
 </resources>

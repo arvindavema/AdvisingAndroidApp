@@ -15,15 +15,16 @@
             android:icon="@drawable/ic_baseline_calendar_month_24"
             android:title="@string/menu_calendar" />
 
-        <item
-            android:id="@+id/nav_advising_tools"
-            android:icon="@drawable/ic_utility_24"
-            android:title="@string/tools"/>
 
         <item
             android:id="@+id/nav_inbox"
             android:icon="@drawable/ic_baseline_inbox_24"
             android:title="@string/notifications"/>
+
+        <item
+            android:id="@+id/nav_advising_tools"
+            android:icon="@drawable/ic_utility_24"
+            android:title="@string/tools"/>
 
 
     </group>
