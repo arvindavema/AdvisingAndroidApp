@@ -142,4 +142,31 @@
     <string name="inbox">inbox</string>
     <string name="your_current_semester">Your Current Semester</string>
     <string name="my_four_year_plan">My Four Year Plan</string>
+    <string name="dashboard_tabs">Dashboard Tabs</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="planning">Planning</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="textview">TextView</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tabs">Tabs</string>
+    <string name="cumulative_gpa_0_0">Cumulative GPA: 0.0</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="forms">Forms</string>
 </resources>

@@ -1,120 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
+    android:id="@+id/gpaFrameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="true"
+    android:clipChildren="true"
+    android:clipToPadding="true"
     android:isScrollContainer="true"
-    android:scrollIndicators="left"
+    android:layoutDirection="inherit"
+    android:layoutMode="opticalBounds"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:textAlignment="viewStart"
+    android:verticalScrollbarPosition="defaultPosition"
+    app:layout_collapseMode="parallax"
+    tools:actionBarNavMode="tabs"
     tools:context=".GpaCalculatorFragment">
 
-    <TextView
-        android:id="@+id/textViewSemHelp2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/gpa_cumulative_help"
-        android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cum_gpa_title" />
 
-    <Button
-        android:id="@+id/buttonCalculateCumulative"
-        android:layout_width="300dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSemester"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/calculate_cumulative"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSemHelp2" />
+        android:clickable="true"
+        app:cardBackgroundColor="@color/design_default_color_background"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="8dp">
 
-    <TextView
-        android:id="@+id/calculator_title"
-        android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|fill"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewSemGpaSubHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/semester_gpa"
+                android:textAppearance="@style/Theme.AdvisingV2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textViewSemHelp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:baselineAligned="true"
+                android:contentDescription="@string/course_name_hint"
+                android:text="@string/gpa_semester_help"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/material_dynamic_neutral20"
+                android:textSize="14sp"
+                android:typeface="normal"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textViewSemGPAOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/semester_gpa_0_0" />
+
+            <Button
+                android:id="@+id/buttonAddCourse"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/add_course" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCumulative"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gpa_anticipated_header"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="@color/black"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:layout_gravity="clip_vertical|fill"
+        android:animateLayoutChanges="true"
+        android:clickable="true"
+        android:isScrollContainer="true"
+        android:layoutDirection="inherit"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="@dimen/appbar_padding">
 
-    <TextView
-        android:id="@+id/textViewSemGpaSubHeader"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginVertical="4dp"
-        android:text="@string/semester_gpa"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/calculator_title" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/buttonAddCourse"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/add_course"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSemGPAOutput" />
+            <TextView
+                android:id="@+id/cum_gpa_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/cumulative_gpa"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textViewSemGPAOutput"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="8dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/semester_gpa_0_0"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSemHelp" />
+            <TextView
+                android:id="@+id/textViewSemInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="8dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/gpa_semester_help" />
 
-    <TextView
-        android:id="@+id/cum_gpa_title"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginTop="24dp"
-        android:text="@string/cumulative_gpa"
-        android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAddCourse" />
+            <TextView
+                android:id="@+id/textViewCumulativeOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cumulative_gpa_0_0" />
 
-    <TextView
-        android:id="@+id/textViewSemHelp"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:lineSpacingExtra="8sp"
-        android:text="@string/gpa_semester_help"
-        android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSemGpaSubHeader" />
+            <Button
+                android:id="@+id/buttonCalculateCumulative"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:elegantTextHeight="true"
+                android:elevation="8dp"
+                android:text="@string/calculate_cumulative"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

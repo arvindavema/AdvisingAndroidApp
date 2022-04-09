@@ -4,77 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/nav_home">
-
-    <fragment
-        android:id="@+id/nav_calendar"
-        android:name="com.example.advisingv2.CalendarFragment"
-        android:label="Advising Calendar"
-        tools:layout="@layout/fragment_calendar" />
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.advisingv2.DashboardFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_welcome">
+        android:name="com.example.advisingv2.HomeTabsFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home_tabs">
         <action
-            android:id="@+id/action_nav_home_to_contactFragment2"
-            app:destination="@id/nav_contactinfo" />
-        <action
-            android:id="@+id/action_nav_home_to_transfersFragment2"
-            app:destination="@id/nav_transferinfo" />
-        <action
-            android:id="@+id/action_nav_home_to_nav_major"
-            app:destination="@id/nav_degree" />
+            android:id="@+id/action_homeTabsFragment_to_navigation"
+            app:destination="@id/navigation" />
     </fragment>
     <fragment
-        android:id="@+id/nav_advising_tools"
-        android:name="com.example.advisingv2.GpaCalculatorFragment"
-        android:label="Utilities"
-        tools:layout="@layout/fragment_gpa_calculator" >
-        <action
-            android:id="@+id/action_nav_advising_tools_to_courseRequestFragment"
-            app:destination="@id/courseRequestFragment" />
-        <action
-            android:id="@+id/action_nav_advising_tools_to_fouryearplanFragment"
-            app:destination="@id/fouryearplanFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/nav_inbox"
-        android:name="com.example.advisingv2.InboxFragment"
-        android:label="inbox"
-        tools:layout="@layout/fragment_inbox" >
-        <action
-            android:id="@+id/action_nav_inbox_to_messageFragment"
-            app:destination="@id/messageFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/messageFragment"
-        android:name="com.example.advisingv2.MessageFragment"
-        android:label="fragment_message"
-        tools:layout="@layout/fragment_message" />
-    <fragment
-        android:id="@+id/courseRequestFragment"
+        android:id="@+id/nav_form"
         android:name="com.example.advisingv2.CourseRequestFragment"
-        android:label="fragment_course_request"
+        android:label="course request"
         tools:layout="@layout/fragment_course_request" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.advisingv2.SettingsFragment"
+        android:label="SettingsFragment" />
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/dashboardFragment">
+        <fragment
+            android:id="@+id/dashboardFragment"
+            android:name="com.example.advisingv2.DashboardFragment"
+            android:label="fragment_dashboard"
+            tools:layout="@layout/fragment_dashboard" />
+        <fragment
+            android:id="@+id/inboxFragment"
+            android:name="com.example.advisingv2.InboxFragment"
+            android:label="fragment_inbox"
+            tools:layout="@layout/fragment_inbox" />
+        <fragment
+            android:id="@+id/gpaCalculatorFragment"
+            android:name="com.example.advisingv2.GpaCalculatorFragment"
+            android:label="fragment_gpa_calculator"
+            tools:layout="@layout/fragment_gpa_calculator" />
+        <action
+            android:id="@+id/action_global_homeTabsFragment"
+            app:destination="@id/nav_home" />
+    </navigation>
     <fragment
         android:id="@+id/fouryearplanFragment"
         android:name="com.example.advisingv2.FouryearplanFragment"
         android:label="fragment_fouryearplan"
         tools:layout="@layout/fragment_fouryearplan" />
-    <fragment
-        android:id="@+id/nav_contactinfo"
-        android:name="com.example.advisingv2.ContactFragment"
-        android:label="fragment_contact"
-        tools:layout="@layout/fragment_contact" />
-    <fragment
-        android:id="@+id/nav_transferinfo"
-        android:name="com.example.advisingv2.TransfersFragment"
-        android:label="fragment_transfers"
-        tools:layout="@layout/fragment_transfers" />
-    <fragment
-        android:id="@+id/nav_degree"
-        android:name="com.example.advisingv2.MajorFragment"
-        android:label="Degree"
-        tools:layout="@layout/fragment_major" />
-
 </navigation>

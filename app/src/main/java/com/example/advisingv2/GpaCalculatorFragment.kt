@@ -20,18 +20,14 @@ class GpaCalculatorFragment : Fragment() {
 	companion object {
 		fun newInstance() = GpaCalculatorFragment()
 	}
-	
 	private var _binding: FragmentGpaCalculatorBinding? = null
-	
 	private val viewModel: GpaCalculatorViewModel by activityViewModels()
-	
 	
 	private var courseName: String = ""
 	private var letterGrade: String = ""
 	private var numCredits: Int = 0
 	
-	private lateinit var courseList: MutableList<Course>
-	
+	private lateinit var courseList: MutableList<String>
 	
 	private val binding: FragmentGpaCalculatorBinding
 			get() = _binding!!
@@ -64,7 +60,6 @@ class GpaCalculatorFragment : Fragment() {
 			alert.setTitle("Add Couse To Semester")
 			alert.show()
 		}
-		
 		binding.buttonCalculateCumulative.setOnClickListener {
 			Toast.makeText(context, "Add Course Button Clicked", Toast.LENGTH_SHORT).show()
 			
@@ -86,16 +81,11 @@ class GpaCalculatorFragment : Fragment() {
 			alert.setTitle("Cumulative GPA Input")
 			alert.show()
 		}
-		
-		
 		val semesterUserInputObserver = Observer<String> {newInput ->
 			binding.textViewSemGPAOutput.text = newInput
 		}
-		
 		viewModel.semesterUserInput.observe(this.viewLifecycleOwner, semesterUserInputObserver)
-		
 		return view
-		
 	}
 	override fun onDestroyView() {
 		super.onDestroyView()
