@@ -11,4 +11,5 @@ data class Notif(
 	val body: String,
 	val deliveredAT: Calendar,
 	val read: Boolean,
+	val urgent: Boolean,
 )

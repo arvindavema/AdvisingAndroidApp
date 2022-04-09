@@ -173,4 +173,7 @@
     <string name="subject_of_notification">Subject of Notification</string>
     <string name="example_body">This is where the text for the body of the notification will be shown. The text will all not show up. Only whatever fits in the container. Wher then user clicks the item, they wilj be able to see the whole thing as a dialog</string>
     <string name="textviewInbox">TextView</string>
+    <string name="unread">Unread</string>
+    <string name="grades">Grades</string>
+    <string name="dashboardTitleTextView">Dashboard</string>
 </resources>

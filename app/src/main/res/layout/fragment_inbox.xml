@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Inbox"
             android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textColor="@color/primary"
             android:textSize="48sp" />
 
         <androidx.recyclerview.widget.RecyclerView

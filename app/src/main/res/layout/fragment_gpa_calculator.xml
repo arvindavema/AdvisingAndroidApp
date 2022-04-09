@@ -25,6 +25,16 @@
     tools:context=".GpaCalculatorFragment">
 
 
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grades"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="@color/primary"
+        android:textSize="48sp" />
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardSemester"
         android:layout_width="match_parent"

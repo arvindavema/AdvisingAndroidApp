@@ -2,13 +2,19 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notificationCardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:clickable="true"
+    android:longClickable="true"
+    android:outlineProvider="background"
     android:padding="8dp"
+    app:cardBackgroundColor="#E65454"
     app:cardCornerRadius="20dp"
     app:cardElevation="4dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
     app:contentPadding="4dp">
 
     <LinearLayout
@@ -19,27 +25,58 @@
 
 
         <TextView
+            android:id="@+id/textViewUnread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unread"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewSender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="From: Bob Jingle (Advisor)"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/textViewNotificationSubject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/subject_of_notification" />
+            android:text="@string/subject_of_notification"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewNotificationPreview"
+            android:id="@+id/textViewNotificationBody"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:elegantTextHeight="true"
+            android:paddingLeft="8dp"
             android:text="@string/example_body"
             android:textAlignment="viewStart"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textViewDeliveredAt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:shadowColor="#00FFFFFF"
             android:textAlignment="textEnd"
-            android:textColor="@color/secondary_dark"
+            android:textColor="@color/white"
             android:textStyle="italic"
             tools:text="1 day ago" />
 
