@@ -169,4 +169,8 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="forms">Forms</string>
+    <string name="cmsc_course_request_form">CMSC Course Request Form</string>
+    <string name="subject_of_notification">Subject of Notification</string>
+    <string name="example_body">This is where the text for the body of the notification will be shown. The text will all not show up. Only whatever fits in the container. Wher then user clicks the item, they wilj be able to see the whole thing as a dialog</string>
+    <string name="textviewInbox">TextView</string>
 </resources>
