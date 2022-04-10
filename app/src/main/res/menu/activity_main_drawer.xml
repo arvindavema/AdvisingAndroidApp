@@ -7,26 +7,30 @@
 
 
         <item
-            android:id="@+id/drawer_calendar"
-            android:icon="@drawable/ic_baseline_calendar_month_24"
-            android:title="@string/menu_calendar" />
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/overviewFragment"
+            android:icon="@drawable/ic_baseline_folder_24"
+            android:title="Resources" />
 
 
+        <item
+            android:id="@+id/courseFragment"
+            android:icon="@drawable/ic_baseline_format_list_numbered_24"
+            android:title="Course Information" />
         <item
             android:id="@+id/drawer_form"
             android:icon="@drawable/ic_baseline_assignment_24"
-            android:title="@string/forms"/>
+            android:title="Course Permissions" />
 
 
         <item
-            android:id="@+id/nform"
-            android:icon="@drawable/ic_baseline_assignment_24"
-            android:title="@string/forms"/>
-
-        <item
-            android:id="@+id/drawer_settings"
+            android:id="@+id/settingsFragment"
+            android:enabled="true"
             android:icon="@drawable/ic_utility_24"
-            android:title="@string/action_settings"/>
+            android:title="Settings" />
 
 
     </group>

@@ -3,6 +3,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -28,28 +29,25 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
         setSupportActionBar(binding.appBarMain.toolbar )
         
-
-        
 //        binding.appBarMain.fab.setOnClickListener { view ->
 //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                .setAction("Action", null).show()
 //        }
         val navView: NavigationView =binding.navView
         val drawerLayout: DrawerLayout = binding.drawerLayout
+ 
         val navController = findNavController(R.id.nav_host_fragment)
         
+        appBarConfiguration = AppBarConfiguration(
+            setOf(
+                R.id.nav_home,
+                R.id.overviewFragment,
+                R.id.courseFragment,
+                R.id.drawer_form,
+                R.id.settingsFragment), drawerLayout)
         
-        appBarConfiguration = AppBarConfiguration( setOf(
-            R.id.nav_home,
-            R.id.inboxFragment,
-            R.id.drawer_calendar,
-            R.id.drawer_settings,
-            R.id.nform ,
-            R.id.gpaCalculatorFragment
-        ), drawerLayout)
-        setupActionBarWithNavController(navController, appBarConfiguration)
+       setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-    
     }
     
     override fun onSupportNavigateUp(): Boolean {

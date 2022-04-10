@@ -1,7 +1,8 @@
-package com.example.advisingv2
+package com.example.advisingv2.ui
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
+import com.example.advisingv2.R
 
 class SettingsFragment : PreferenceFragmentCompat() {
 	
