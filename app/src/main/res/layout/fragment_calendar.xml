@@ -7,38 +7,43 @@
     tools:context=".CalendarFragment">
 
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:padding="4dp">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/calendarTitleTextView"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Upcoming"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-            android:textColor="@color/primary"
-            android:textSize="48sp" />
+            android:orientation="vertical"
+            android:padding="4dp">
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardCalendar"
-            style="?attr/materialCardViewElevatedStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp">
-
-
-            <CalendarView
-                android:id="@+id/calendarView"
-                style="@android:style/Widget.Material.Light.CalendarView"
+            <TextView
+                android:id="@+id/calendarTitleTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fitsSystemWindows="true"
-                android:textAlignment="gravity" />
+                android:text="@string/upcomingTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                android:textColor="@color/primary"
+                android:textSize="48sp" />
 
-        </com.google.android.material.card.MaterialCardView>
-    </LinearLayout>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardCalendar"
+                style="?attr/materialCardViewElevatedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+
+                <CalendarView
+                    android:id="@+id/calendarView"
+                    style="@android:style/Widget.Material.Light.CalendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:textAlignment="gravity" />
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
