@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home,
                 R.id.overviewFragment,
                 R.id.courseFragment,
-                R.id.drawer_form,
+                R.id.nav_form,
                 R.id.settingsFragment), drawerLayout)
         
        setupActionBarWithNavController(navController, appBarConfiguration)
