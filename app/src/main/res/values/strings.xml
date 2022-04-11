@@ -165,8 +165,7 @@
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="forms">Forms</string>
     <string name="cmsc_course_request_form">CMSC Course Request Form</string>
@@ -177,4 +176,328 @@
     <string name="grades">Grades</string>
     <string name="dashboardTitleTextView">Dashboard</string>
     <string name="upcomingTitle">Upcoming</string>
+
+    <string name="ugradOverviewTitleTextView">Undergrad Program Overview</string>
+    <string name="ugradStudiesSummary">
+        "At the Department of Computer Science, undergraduates are a priority. Here, you will meet 3,400 (and counting)
+        of the nation\'s top computer science majors. This diverse group of students has interests ranging from systems to
+        programming languages, from algorithms to design and from VR to Robotics. While you are an undergraduate here,
+        you will study fundamentals in computing including programming languages and theory, which will help you later in
+        a variety of courses we offer at the 400-level. After taking classes, perhaps doing research, participating in our
+        honors program, or studying abroad, and completing internships, our students go on to some of the best graduate programs
+        in the world or join start-ups, small and large tech companies, consulting firms, or government organizations.\n\n"
+    </string>
+
+    <string name="ugradAdvsingTeamTextView">Undergraduate Advising Team</string>
+    <string name="ugradAdvsingTeamSummaryTextView">
+        "The undergraduate advising team assists with the academic and professional development of undergraduate majors and minors
+        in Computer Science. We also coordinate and host myriad social, academic, and professional events including resume workshops,
+        and career and internship fairs.\n\n"
+
+        "As a student, you will interact with the undergraduate office staff during mandatory advising (which occurs once a semester)
+        or whenever you would like to speak with a staff member about any issue. If you are facing academic or emotional difficulties,
+        it is especially important that you contact us as soon as you are able. For general questions or concerns about the undergraduate
+        program, please email us at ugrad@cs.umd.edu. We ask that you include your UID number and explain the purpose of your visit as you
+        schedule your appointment; this helps us to prepare appropriately.\n\n"
+    </string>
+
+    <string name="advisorsTextView">Academic Advisors</string>
+    <string name="courtneyTextView">
+        "Courtney Cabansag\n"
+        "Office: 1154 Brendan Iribe Center\n"
+        "Email: cabansag@umd.edu\n\n"
+        "Courtney is a Senior Academic Advisor who received her B.A. in Language, Culture &amp; Society
+        from the University of California, Santa Barbara and her M.S. in Higher Postsecondary Education
+        from Syracuse University. Courtney has worked in academic success, student involvement and leadership
+        and most recently residence life before joining the Department of Computer Science in 2019. When she
+        isn’t advising, Courtney enjoys exercising (everything from weightlifting to aerial yoga), watching
+        reality television, and discovering new vegan recipes.\n\n"
+    </string>
+    <string name="brysonTextView">
+        "Bryson Daniels\n"
+        "Email: bdaniel7@umd.edu\n\n"
+        "Bryson received his B.S. in Psychology with a Minor in Biological Sciences from Clemson University,
+        and his M.Ed. in Higher Education Administration from Auburn University. Prior to joining the Computer
+        Science Department, he worked within the Gossett Student-Athlete Center at the University of Maryland
+        as the Interim Athletic Academic Counselor for Men's Wrestling. In his spare time, Bryson enjoys running, reading,
+        and exploring the DMV area with friends and family.\n\n"
+    </string>
+    <string name="christineTextView">
+        "Christine Denis\n"
+        "Office: 1152 Brendan Iribe Center\n"
+        "Email: cdenis@umd.edu\n\n"
+        "Christine is a Senior Academic Advisor who received her B.S. in Psychology with a concentration in
+        counseling at East Stroudsburg University and her M.S. in Higher Education Policy &amp; Student Affairs
+        from West Chester University. Prior to joining the Computer Science Department in 2019, Christine worked
+        with academic probation students and first-year Achieve! program students to cultivate academic and personal
+        success at West Chester University. Christine has a special interest supporting Exploratory/Undeclared students
+        in navigating indecision and declaring a major. In her free time, she enjoys traveling to the Pocono Mountains
+        to visit family and friends, hiking, and spending time with her dog.\n\n"
+    </string>
+    <string name="erikTextView">
+        "Erik Johanson\n"
+        "Office: Brendan Iribe Center\n"
+        "Email: ejohanso@umd.edu\n\n"
+        "Erik received his B.S. in Biology and B.A. in History from Providence College, and his M.A. in English Literature
+        from the Catholic University of America. Prior to joining the Computer Science Department, he taught literature, writing,
+        and rhetoric at Catholic University and acted as a professional writing tutor at the United States Naval Academy.
+        His research interests include writing pedagogy in STEM fields, best practices for university Writing Centers, and
+        British Renaissance poetry. In his free time, Erik enjoys reading, writing, playing video games, and everything LEGO.\n\n"
+    </string>
+    <string name="brittanyTextView">
+        "Brittany Johnson\n"
+        "Office: 1150 Brendan Iribe Center\n"
+        "Email: johnsobr@umd.edu\n\n"
+        "Brittany is a Senior Academic Advisor for the Department of Computer Science. Brittany started her academic
+        career in the Maryland Higher Education system, working at Prince George’s Community College as a testing coordinator
+        while working on her undergraduate degree. She received her B.A. in English Language and Literature from the University of Maryland
+        College Park in 2011. She continued her academic career as an advisor at the University of Maryland University College,
+        working with the Undergraduate School to provide advising to working adults including veterans and active duty military personnel.
+        She transitioned from advising to functional coordination for the implementation of a new Document Management System in the
+        Office of the Registrar. She received a Graduate Certificate in Multimedia Journalism at the University of Maryland College Park
+        in Spring 2019. Her research interests revolve around academic advocacy and strengthening the intersection between STEM and the
+        Arts and Humanities academic fields. In her spare time, Brittany enjoys photography/videography and travel.\n\n"
+    </string>
+    <string name="natalieTextView">
+        "Natalie Lightfoot-Solomon\n"
+        "Office: 1148 Brendan Iribe Center\n"
+        "Email: nlightfo@umd.edu\n\n"
+        "Natalie is a Senior Academic Advisor who received her B.S. in Toxicology from Penn State University, her M.S.
+        in Disaster Medicine and Management from Philadelphia University, and a second B.S. in Investigative Forensics
+        from University of Maryland Global Campus. Natalie has worked in academic advising for over 6 years, focusing
+        on problem solving and student resolutions. She is also an adjunct faculty member with University of Maryland Global Campus,
+        helping new students with program and career exploration. In her spare time, Natalie loves to travel and read.\n\n"
+    </string>
+    <string name="maggieTextView">
+        "Maggie Loughlin\n"
+        "Email: mloughli@umd.edu\n\n"
+        "Maggie is an academic advisor in the Department of Computer Science. She earned her B.A. in English Language and Literature
+        at the University of Maryland in 2019, and earned her Master's Degree in Secondary Education from the University of Maryland in 2020.
+        Before starting work at the University of Maryland, Maggie worked as an English Teacher in Prince George's County and as a Coordinator
+        for the American Association of Colleges of Osteopathic Medicine. Her background has shaped her interest in serving students and helping
+        them succeed. When she's not in the office, Maggie enjoys kayaking on the Patapsco River, playing piano, and taking long walks with her dog Bilbo.\n\n"
+    </string>
+    <string name="ashleyTextView">
+        "Ashley Lyles\n"
+        "Email: alyles2@umd.edu\n\n"
+        "Ashley received both her B.A. in Communication Studies with minors in Spanish and French, and her M.S. in
+        Higher Education Policy and Student Affairs from West Chester University. Prior to joining the Computer Science team,
+        Ashley has worked in fraternity and sorority life, and most recently as an advisor to Black and Latino male students
+        on an initiative to help improve the graduation and retention rates for this specific student population.
+        Ashley's primary academic interests include developing support systems and equitable institutional policies for students
+        of color in an effort to create a more sustainable educational experience. When she's not advising, Ashley enjoys spending
+        her free time exploring new restaurants, re-watching the entire series of Grey's Anatomy, and playing with her fluffy Goldendoodle, Marco.\n\n"
+    </string>
+    <string name="larryTextView">
+        "Larry Petruccy\n"
+        "Email: lpetruc1@umd.edu\n\n"
+        "Larry received his BA in English from St. Mary's College of Maryland. Prior to joining the Computer Science Department, Larry
+        worked in K-12 education for eight years before moving on to work in higher education. During that time he worked as a high
+        school English teacher and as a senior manager at a virtual school overseeing course placements for grades K-12. In higher education,
+        Larry has worked with nursing students at both Walden University and Towson University in enrollment and advising roles. In his free time,
+        Larry enjoys watching horror films and playing board games with family and friends.\n\n"
+    </string>
+    <string name="brennanTextView">
+        "Brennan Rudy\n"
+        "Email: brudy9@umd.edu\n\n"
+        "Brennan received his Bachelor of Music from Susquehanna University in 2019 and his Master of Music from University of Maryland in Spring 2021.
+        Prior to joining the Department of Computer Science, Brennan has worked in Residence Life, and most recently as a graduate assistant in the academic
+        advising office for the Smith School of Business. In addition to advising, Brennan enjoys hiking, baking, performing in orchestras, and is currently
+        pursuing a Doctor of Musical Arts at UMD.\n\n"
+    </string>
+    <string name="shreyaTextView">
+        "Shreya Singh\n"
+        "Email: ssingh30@umd.edu\n\n"
+        "Shreya received her B.S. in Biology, Certificate in Women's Studies, and MPS in Clinical Psychology from University of Maryland.
+        Prior to joining the Computer Science department, she worked with students in a living and learning program to promote research experience,
+        advise students in navigating STEM coursework, and encourage community building. Shreya's academic interests involve understanding barriers
+        to success faced by students of color and first generation college students. In her free time, Shreya enjoys reading, binging TV shows, and dance.\n\n"
+    </string>
+
+    <string name="headsOfStaffTextView">Heads of Staff</string>
+    <string name="monicaTextView">
+        "Monica Hilliard\n"
+        "Assistant Program Director of Undergraduate Academic Affairs\n"
+        "Email: monicah@umd.edu\n\n"
+        "Monica received her BA in International Affairs from the University of Colorado Boulder and her MA in International Education
+        from the George Washington University. Prior to joining the Department of Computer Science, she worked as Manager of Academic Records
+        for the College Dean’s Office at Georgetown University. She also has several years of experience working with study abroad programs.
+        In her free time, Monica enjoys exploring the outdoors, traveling, and reading.\n\n"
+    </string>
+    <string name="davidMTextView">
+        "David Mount\n"
+        "Associate Chair and Director of Undergraduate Studies\n"
+        "Office: 5208 Brendan Iribe Center\n"
+        "Email: mount@umd.edu\n\n"
+        "David Mount is a professor in the Department of Computer Science at the University of Maryland with a joint appointment in the
+        University's Institute for Advanced Computer Studies (UMIACS). He received his Ph.D. from Purdue University in Computer Science in 1983,
+        and started at the University of Maryland in 1984. In 2001 he was a visiting professor at the Hong Kong University of Science and Technology.
+        He has written over 170 research publications on algorithms for geometric problems, particularly problems with applications in image processing,
+        pattern recognition, information retrieval, and computer graphics. He currently serves on the editorial boards of a number of journals,
+        including ACM Transactions on Spatial Algorithms and Systems, Computational Geometry: Theory and Applications, International Journal of
+        Computational Geometry &amp; Applications, and he has served on the editorial boards of ACM Trans. on Mathematical Software and Pattern Recognition.
+        He was the conference chair for the 24th Annual Symposium on Computational Geometry in 2008. He has served on the program committees of many of
+        the major conferences in his area, and he served as the program committee co-chair for the 19th ACM Symposium on Computational Geometry in 2003 and
+        the Fourth Workshop on Algorithm Engineering and Experiments in 2002 and SPIE's Conferences on Vision Geometry from 2001 through 2006.
+        He is currently serving on the Computational Geometry Steering Committee. He has won a number of awards for excellence in teaching,
+        including twice winning the University of Maryland's College of Computer, Mathematical and Natural Sciences, Dean's Award for Excellence in Teaching,
+        and the Award for Teaching Excellence Appreciation in 2001 at the Hong Kong University of Science and Technology. He has co-authored the textbook
+        Data Structures and Algorithms in C++ with Mike Goodrich and Roberto Tamassia.\n\n"
+    </string>
+    <string name="davidTTextView">
+        "David Turner\n"
+        "Assistant Director of Undergraduate Studies\n"
+        "Office: 1132 Brendan Iribe Center"
+        "Email: dturner8@umd.edu\n\n"
+        "David currently serves as the Assistant Director of Undergraduate Studies. He received his B.S. in Biological Sciences and his Ed.M. in
+        Higher Education Administration both from the University at Buffalo. He joined the University of Maryland in January of 2017 as the
+        Recruitment and Programming Coordinator in the Honors College. Prior to joining the University of Maryland, he worked in the Office of
+        Undergraduate Admissions at West Chester University. His primary research interests are the history of higher education, accessibility of
+        higher education, and accreditation and assessment. David enjoys reading, traveling, and spending time with family and friends.\n\n"
+    </string>
+
+    <string name="ugradPeerAdvsingTeamHeader">Undergraduate Peer Advising Team</string>
+    <string name="ugradPeerAdvsingTeamSummaryTextView">
+        "The Peer Advisors of the CS Undergraduate Advising Office aim to provide the best guidance for navigating the Computer Science degree and
+        academic experience from the student perspective. Peer Advisors support the CS Undergraduate Advising Office in its mission to assist students
+        with their academic and professional goals by being the first line of communication, triaging students’ requests, collaborating with students
+        on building and editing their academic plans, directing visitors according to their needs and questions, and being otherwise prepared to provide
+        general assistance to both students and advisors. To get in contact with the Peer Advisors, you are welcome to reach out via email at ugrad@cs.umd.edu
+        or Instagram at @umdcs.\n\n"
+    </string>
+    
+    <string name="mariaTextView">
+        "Maria Keerthi Amala Arasu\n"
+        "Peer Advisor\n\n"
+        "Maria is a sophomore Computer Science major, specializing in Machine Learning, with a minor in Math. She is also an undergraduate
+        TA for computer science and enjoys working with her peers. After graduating, she wants to pursue a career in Software Engineering
+        and Artificial Intelligence. In her free time she enjoys traveling, listening to music, and binge-watching TV shows.\n\n"
+    </string>
+    <string name="siddheshTextView">
+        "Siddhesh Gupta\n"
+        "Peer Advisor\n\n"
+        "Siddhesh Gupta is an International, Junior Computer Science Student from India. Siddhesh is specializing in Data Science and minoring
+        in Statistics. He's also a TA for BMGT289B: How do innovators think! Siddhesy likes engaging in outside class activities.
+        Currently he is the president and founder of BigTh!nk AI, a student organization at UMD. He loves to play sports and is decently good
+        at 10 different sports. After graduating Siddhesh would like to work in Software Engineering field to build and innovate new software products.
+        Siddhesh loves watching Formula 1 and always stay up to date with what’s new in the sport. F1 has inspired Siddhesh over the years to be innovative
+        on even the smallest levels. In his free time Siddhesh likes to catch up on sleep, get involved with friends, and on-campus activities.\n\n"
+    </string>
+    <string name="surmudTextView">
+        "Surmud Jamil\n"
+        "Peer Advisor\n\n"
+        "Surmud Jamil is from his hometown of Bel Air, Maryland, and he's a senior year computer science major. Last summer, Surmud completed a
+        software engineering internship at Pearson, where he gained a lot of experience in software development. Surmud's hobbies include basketball,
+        fantasy football, reading books, working out, watching netflix, and most importantly, sleeping.\n\n"
+    </string>
+    <string name="amarachiTextView">
+        "Amarachi Joe-Nweke\n"
+        "Peer Advisor\n\n"
+        "Amarachi is a senior Computer Science major with a minor in International Development and Conflict Management. She transferred from the
+        Community College of Baltimore County(CCBC) with her A.S. in Computer Science. Beyond her role as a Peer Advisor, Amarachi is also a
+        leader with Bethel Campus Fellowship, a student organization on campus. When she's not studying, Amarachi enjoys cooking, watching movies,
+        and spending time with family and friends.\n\n"
+    </string>
+    <string name="joshuaTextView">
+        "Joshua Kalampanayil\n"
+        "Peer Advisor\n\n"
+        "Joshua is a second-year undergraduate student, majoring in computer science and minoring in general business and statistics.
+        On campus, Joshua is also a sponsorship organizer in both Technica and Bitcamp, two hackathons run by students at the University of Maryland,
+        as well as being a TA for the CS department. In his free time, Joshua loves to sleep, spend hours on TikTok, and is working toward becoming
+        a game referee on the elementary school level for FIRST Robotics.\n\n"
+    </string>
+    <string name="lalithaTextView">
+        "Lalitha Kasi\n"
+        "Peer Advisor\n\n"
+        "Lalitha is a sophomore undergraduate student majoring in Computer Science, with a specialization in cybersecurity.
+        In addition to being a Peer Advisor for the Computer Science Undergraduate Advising Office, Lalitha is involved on campus as a
+        I4C Teaching/Outreach Ambassador, Hospitality Chair for Maryland Masti, and a part of Technica's Finance Team. After graduation,
+        she hopes to work in the field of cybersecurity intelligence. In her free time, Lalitha enjoys traveling, hiking, cooking,
+        and spending quality time with her friends and family.\n\n"
+    </string>
+    <string name="katherineTextView">
+        "Katherine Kim\n"
+        "Peer Advisor\n\n"
+        "Katherine is a junior undergraduate student double majoring in Data Science and Cell Biology and Genetics, and this is her
+        first year as a peer advisor. Her overall interests include developing ethical technology, improving healthcare, and fostering education.
+        Outside of school, she likes to bake/cook, exercise, spend time with friends and family, and binge watch shows. Her recent binges include
+        Big Mouth, Bridgerton, Lovecraft Country, The Crown, and Rick and Morty. She prefers MCU over DCU, believes that Game of Thrones ended at season 6,
+        and also watches the Bachelor (but does not recommend it to anybody because she acknowledges that 90% of it is unnecessary drama, but she
+        continues to watch it anyway).\n\n"
+    </string>
+    <string name="shivasreeTextView">
+        "Shivasree Margam\n"
+        "Peer Advisor\n\n"
+        "Shivasree is a junior majoring in computer science with a focus in cybersecurity and minoring in innovation &amp; entrepreneurship.
+        She is from Howard County, Maryland, and has moved over seven times in her life! Shivasree is a returning PA and is currently
+        involved with UMD's BitView as mentor coordinator, Hindu Student Council as treasurer, and I4C as computing ambassador.
+        After graduation, she aspires to use her technical and business skills to positively impact the growing society. In her free time,
+        she enjoys binge-watching shows, listening to music, and spending time with friends and family.\n\n"
+    </string>
+    <string name="amodTextView">
+        "Amod Mathur\n"
+        "Senior Peer Advisor\n\n"
+        "Amod is a student at the University of Maryland pursuing a B.S. in Computer Science with a minor in Business Analytics.
+        He has been a Peer Advisor with the CS Undergraduate Advising Office since March 2020, and enjoys working with Computer Science
+        students establishing their academic and professional goals. Amod plans to graduate in Spring 2022 to pursue a career in software engineering.
+        On campus, Amod is involved with the QUEST Honors Program and Alpha Kappa Psi Business Fraternity. In his free time,
+        Amod enjoys playing tennis and table tennis, watching Netflix, and speedsolving Rubik's Cubes.\n\n"
+    </string>
+    <string name="snehaTextView">
+        "Sneha Narayanan\n"
+        "Senior Peer Advisor\n\n"
+        "Sneha is a third-year undergraduate student at the University of Maryland from South Brunswick, New Jersey. She is a Computer Science
+        major and she is completing a minor in Business Analytics and certification in Women’s Studies. She is a peer advisor for the Department
+        of Computer Science. Sneha has held various other leadership positions during her time so far at the University of Maryland including
+        being an Undergraduate Computer Science Teaching Assistant, English Teaching Assistant, and helping run the Girls Who Code UMD Chapter.
+        She is also involved with cultural organizations at UMD including Maryland Minza and Maryland Mauj where she is involved as a technology
+        and hospitality chair. This upcoming summer she will be interning at Capital One in New York City as a Software Engineering Intern.
+        Sneha really enjoys working on her interior design skills as well as working out and drinking coffee.\n\n"
+    </string>
+    <string name="kaylaTextView">
+        "Kayla Norton\n"
+        "Graduate Assistant\n\n"
+        "Kayla is the Graduate Assistant for the CS Undergraduate Advising Office. She is pursuing her Master of Public Policy Degree,
+        with a focus in health policy. Most notably, Kayla has been a member of the UMD community since 2017 - completing her undergraduate
+        degree in Public Health Science May of 2020. She has a strong passion for STEM and enjoys helping Break Through Tech work to expand
+        diversity in tech. In her free time, she can be found outdoors, exploring new ways to be active or grabbing coffee from a local coffee shop.\n\n"
+    </string>
+    <string name="dhvaniTextView">
+        "Dhvani Patel\n"
+        "Peer Advisor\n\n"
+        "Dhvani is a Junior Computer Science major, with a specialization in Data Science. Along with being a Peer Advisor for the Department of
+        Computer Science, she is a part-time software engineering intern at Liberty Mutual and the secretary of Alpha Omega Epsilon(a STEM based sorority).
+        Some of her other hobbies include reading, dancing, and watching reality TV. A few of her favorite shows are Big Brother and Survivor but she also
+        loves any crime-based show/podcast. After graduation she hopes to pursue a career in data engineering while also exploring the ethics behind AI.\n\n"
+    </string>
+    <string name="aashrayTextView">
+        "Aashray Raparla\n"
+        "Peer Advisor\n\n"
+        "I am a junior Computer Science major with a minor in Innovation and Entrepreneurship. Outside of CS, I enjoy watching sports and playing some music.\n\n"
+    </string>
+    <string name="mansiTextView">
+        "Mansi Reddy\n"
+        "Peer Advisor\n\n"
+        "Mansi is a senior undergraduate student from the Bay Area, California. She is majoring in Computer Science with a minor in Innovation &amp; Entrepreneurship
+        and plans on working as a software engineer after graduation. On campus, Mansi is involved with the QUEST Honors Program, Technica, and is on the executive
+        board of two cultural organizations Maryland Mauj and Maryland Mayuri. She also enjoys brunch, reality tv, walks, and coffee.\n\n"
+    </string>
+    <string name="ambikaTextView">
+        "Ambika Sikri\n"
+        "Senior Peer Advisor\n\n"
+        "Ambika is a senior undergraduate student from Silver Spring, Maryland, pursuing a dual-degree in Computer Science -
+        with a specialization in Data Science - and Sociology. She enjoys interacting with other students on campus as a Peer
+        Advisor of the CS Undergraduate Advising Office, I4C Teaching/Outreach Ambassador, I4C Peer Mentor Ambassador, and Honors Ambassador.
+        Ambika also serves as Vice President on the establishing board of the Leading Women of Tomorrow chapter at UMD and is involved
+        with other organizations on campus. After graduation, she hopes to work in a space that advances tech innovation for social good.
+        Ambika's favorite times are those spent with her friends &amp; family, but she's also almost always listening to music and loves trying
+        different creative projects, reading, or watching Netflix.\n\n"
+    </string>
+    <string name="nandiniTextView">
+        "Nandini Venkatesh\n"
+        "Peer Advisor\n\n"
+        "Nandini is a junior from New Jersey and is majoring in Computer Science (General Track) and Economics. She is also an undergraduate
+        TA for CMSC330 and a Computing Ambassador for I4C. After graduation she hopes to pursue a career in Software Engineering and Software
+        Development. Some of her hobbies include singing, watching Netflix, and spending time with friends and family.\n\n"
+    </string>
 </resources>

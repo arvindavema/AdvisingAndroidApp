@@ -71,6 +71,15 @@
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/menu/main.xml" value="0.33" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/menu/navigation_rail_menu.xml" value="0.1" />
         <entry key="..\:/Users/Administrator/Spring2022/434/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2185" />
+        <entry key="app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.1015" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.370018115942029" />
+        <entry key="app/src/main/res/layout/fragment_calendar.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.370018115942029" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/fragment_degreerequirements.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/fragment_gpa_calculator.xml" value="0.228125" />
+        <entry key="app/src/main/res/layout/fragment_inbox.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/fragment_overview.xml" value="0.165" />
       </map>
     </option>
   </component>
