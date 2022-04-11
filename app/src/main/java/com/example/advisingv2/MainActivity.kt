@@ -17,26 +17,26 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-    
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-    
-    
+
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
-        
+
         setContentView(view)
         setSupportActionBar(binding.appBarMain.toolbar )
-        
+
 //        binding.appBarMain.fab.setOnClickListener { view ->
 //            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                .setAction("Action", null).show()
 //        }
         val navView: NavigationView =binding.navView
         val drawerLayout: DrawerLayout = binding.drawerLayout
- 
+
         val navController = findNavController(R.id.nav_host_fragment)
-        
+
         appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.nav_home,
@@ -44,16 +44,14 @@ class MainActivity : AppCompatActivity() {
                 R.id.courseFragment,
                 R.id.nav_form,
                 R.id.settingsFragment), drawerLayout)
-        
-       setupActionBarWithNavController(navController, appBarConfiguration)
+
+        setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }
-    
+
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
-    
+
 }
-
-
