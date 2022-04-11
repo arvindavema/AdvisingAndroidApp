@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/courtneyTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewBryson"
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/brysonTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewChristine"
@@ -58,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/christineTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewErik"
@@ -66,7 +66,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/erikTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewBrittany"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/brittanyTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewNatalie"
@@ -82,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/natalieTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewMaggie"
@@ -90,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/maggieTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewAshley"
@@ -98,7 +98,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ashleyTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewLarry"
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/larryTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewBrennan"
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/brennanTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewShreya"
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/shreyaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/monicaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewDavidM"
@@ -165,7 +165,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/davidMTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewDavidT"
@@ -173,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/davidTTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -209,7 +209,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ugradPeerAdvsingTeamSummaryTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewMaria"
@@ -217,7 +217,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/mariaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewSiddhesh"
@@ -225,7 +225,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/siddheshTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewSurmud"
@@ -233,7 +233,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/surmudTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewAmarachi"
@@ -241,7 +241,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/amarachiTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewJoshua"
@@ -249,7 +249,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/joshuaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewLalitha"
@@ -257,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/lalithaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewKatherine"
@@ -265,7 +265,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/katherineTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewShivasree"
@@ -273,7 +273,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/shivasreeTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewAmod"
@@ -281,7 +281,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/amodTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewSneha"
@@ -289,7 +289,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/snehaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewKayla"
@@ -297,7 +297,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/kaylaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewDhvani"
@@ -305,7 +305,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/dhvaniTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewAashray"
@@ -313,7 +313,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/aashrayTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewMansi"
@@ -321,7 +321,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/mansiTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewAmbika"
@@ -329,7 +329,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/ambikaTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
 
                 <TextView
                     android:id="@+id/textViewNandini"
@@ -337,7 +337,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/nandiniTextView"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                    android:textSize="12sp"/>
+                    android:textSize="15sp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
