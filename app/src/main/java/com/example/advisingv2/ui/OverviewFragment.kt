@@ -26,9 +26,9 @@ class OverviewFragment : Fragment() {
 	// TODO: Rename and change types of parameters
 	private lateinit var overviewCollectionAdapter: OverviewCollectionAdapter
 	private lateinit var viewPager: ViewPager2
-	
+
 	private lateinit var binding: FragmentOverviewBinding
-	
+
 	override fun onCreateView(
 		inflater: LayoutInflater, container: ViewGroup?,
 		savedInstanceState: Bundle?
@@ -37,12 +37,12 @@ class OverviewFragment : Fragment() {
 		// Inflate the layout for this fragment
 		return binding.root
 	}
-	
+
 	override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 		overviewCollectionAdapter  = OverviewCollectionAdapter(this)
 		viewPager = view.findViewById(R.id.overviewViewPager)
 		viewPager.adapter = overviewCollectionAdapter
-		
+
 		TabLayoutMediator(binding.tabLayoutOverview, binding.overviewViewPager) { tab, position ->
 			tab.text = tabNames[position]
 		}.attach()
@@ -53,11 +53,11 @@ class OverviewFragment : Fragment() {
 
 class OverviewCollectionAdapter(fragment: Fragment) :
 	FragmentStateAdapter(fragment) {
-	
+
 	override fun getItemCount(): Int {
 		return 4
 	}
-	
+
 	override fun createFragment(position: Int): Fragment {
 		return when(position) {
 			0 -> AboutFragment()
@@ -66,5 +66,5 @@ class OverviewCollectionAdapter(fragment: Fragment) :
 			else -> ContactFragment()
 		}
 	}
-	
+
 }

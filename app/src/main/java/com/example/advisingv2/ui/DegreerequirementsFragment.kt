@@ -30,9 +30,6 @@ class DegreerequirementsFragment : Fragment() {
 	private var _binding: FragmentDegreerequirementsBinding? = null
 	private var param1: String? = null
 	private var param2: String? = null
-	private var cardView: CardView? = null
-	private var expand: Button? = null
-	private var hiddenGroup: TextView? = null
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -52,9 +49,6 @@ class DegreerequirementsFragment : Fragment() {
 		// Inflate the layout for this fragment
 		_binding = FragmentDegreerequirementsBinding.inflate(inflater, container, false)
 		val view = binding.root
-		//cardView = binding.genTrackCard
-		//expand = binding.gtExpand
-		//hiddenGroup = binding.gtInfo
 
 		binding.gtExpand.setOnClickListener{
 			if (binding.gtInfo!!.visibility != View.VISIBLE) {

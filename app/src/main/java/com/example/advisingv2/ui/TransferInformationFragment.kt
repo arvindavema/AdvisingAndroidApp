@@ -1,11 +1,13 @@
 package com.example.advisingv2.ui
 
 import android.os.Bundle
+import android.transition.AutoTransition
+import android.transition.TransitionManager
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.advisingv2.R
+import com.example.advisingv2.databinding.FragmentTransferInformationBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -19,8 +21,12 @@ private const val ARG_PARAM2 = "param2"
  */
 class TransferInformationFragment : Fragment() {
 	// TODO: Rename and change types of parameters
+	private var _binding: FragmentTransferInformationBinding? = null
 	private var param1: String? = null
 	private var param2: String? = null
+
+	private val binding: FragmentTransferInformationBinding
+		get() = _binding!!
 	
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -35,7 +41,20 @@ class TransferInformationFragment : Fragment() {
 		savedInstanceState: Bundle?
 	): View? {
 		// Inflate the layout for this fragment
-		return inflater.inflate(R.layout.fragment_transfer_information, container, false)
+		_binding = FragmentTransferInformationBinding.inflate(inflater, container, false)
+		val view = binding.root
+		binding.exExpand.setOnClickListener{
+			if (binding.exInfo!!.visibility != View.VISIBLE) {
+				TransitionManager.beginDelayedTransition(binding.exTransferCard, AutoTransition())
+				binding.exInfo!!.visibility = View.VISIBLE
+				binding.exExpand.text = "Click Here To Minimize"
+			} else {
+				TransitionManager.beginDelayedTransition(binding.exTransferCard, AutoTransition())
+				binding.exInfo!!.visibility = View.GONE
+				binding.exExpand.text = "Click Here To Learn More"
+			}
+		}
+		return view
 	}
 	
 	companion object {

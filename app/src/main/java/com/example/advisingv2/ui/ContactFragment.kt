@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.advisingv2.R
+import com.example.advisingv2.databinding.FragmentAboutBinding
+import com.example.advisingv2.databinding.FragmentContactBinding
 
 
 // TODO: This is to display all of yhe contact info of important staff and advisors
@@ -22,8 +24,12 @@ private const val ARG_PARAM2 = "param2"
  */
 class ContactFragment : Fragment() {
 	// TODO: Rename and change types of parameters
+	private var _binding: FragmentContactBinding? = null
 	private var param1: String? = null
 	private var param2: String? = null
+
+	private val binding: FragmentContactBinding
+		get() = _binding!!
 	
 	//Advisor info
 	private var advisors = listOf(
@@ -61,7 +67,9 @@ class ContactFragment : Fragment() {
 		savedInstanceState: Bundle?
 	): View? {
 		// Inflate the layout for this fragment
-		return inflater.inflate(R.layout.fragment_contact, container, false)
+		_binding = FragmentContactBinding.inflate(inflater, container, false)
+		val view = binding.root
+		return view
 	}
 	
 	companion object {
