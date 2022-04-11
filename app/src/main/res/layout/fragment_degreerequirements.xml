@@ -166,7 +166,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="The Cybersecurity Specialization allows students to have the necessary background to address myriad cybersecurity issues relevant to government, industry, and academic careers. Students interested in pursuing the cybersecurity specialization take the same foundational courses in computer science, but must complete a set of upper-level elective courses in order to ensure they receive in-depth education in topics such as network and distributed system security, operating systems security, and cryptography.\n\n"/>
+                    android:text="The Cybersecurity Specialization allows students to have the necessary background to address myriad cybersecurity issues relevant to government, industry, and academic careers. Students interested in pursuing the cybersecurity specialization take the same foundational courses in computer science, but must complete a set of upper-level elective courses in order to ensure they receive in-depth education in topics such as network and distributed system security, operating systems security, and cryptography.\n\n"
+                    android:textAlignment="center"/>
                 <Button
                     android:id="@+id/cyberExpand"
                     android:layout_width="200dp"
@@ -211,7 +212,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Data Science is an emerging field encapsulating interdisciplinary activities, used to create data-centric products, applications or programs that address specific scientific, socio-political, or business questions. It is making deep inroads in industry, government, health, and journalism. Due to the growing need for applying data science techniques in these and other domains, there is a significant shortage of trained data scientists. Data Science incorporates practices from a variety of fields in computer science, chiefly machine learning, statistics, databases, systems, algorithms, and visualization. The undergraduate data science specialization enables students to get the broad variety of skills needed to be successful data scientists.\n\n"/>
+                    android:text="Data Science is an emerging field encapsulating interdisciplinary activities, used to create data-centric products, applications or programs that address specific scientific, socio-political, or business questions. It is making deep inroads in industry, government, health, and journalism. Due to the growing need for applying data science techniques in these and other domains, there is a significant shortage of trained data scientists. Data Science incorporates practices from a variety of fields in computer science, chiefly machine learning, statistics, databases, systems, algorithms, and visualization. The undergraduate data science specialization enables students to get the broad variety of skills needed to be successful data scientists.\n\n"
+                    android:textAlignment="center"/>
                 <Button
                     android:id="@+id/dsExpand"
                     android:layout_width="200dp"
