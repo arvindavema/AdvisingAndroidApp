@@ -18,7 +18,8 @@
             android:text="@string/advisorsTextView"
             android:textAppearance="@style/TextAppearance.AppCompat.Display4"
             android:textColor="@color/primary"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -133,7 +134,8 @@
             android:text="@string/headsOfStaffTextView"
             android:textAppearance="@style/TextAppearance.AppCompat.Display4"
             android:textColor="@color/primary"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -185,7 +187,8 @@
             android:text="@string/ugradPeerAdvsingTeamHeader"
             android:textAppearance="@style/TextAppearance.AppCompat.Display4"
             android:textColor="@color/primary"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"

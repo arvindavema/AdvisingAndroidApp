@@ -114,7 +114,8 @@
                         android:textAlignment="textStart"
                         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
                         android:textColor="@color/primary"
-                        android:textSize="15dp" />
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -162,7 +163,8 @@
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
                     android:textColor="@color/primary"
-                    android:textSize="15dp" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -208,7 +210,8 @@
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
                     android:textColor="@color/primary"
-                    android:textSize="15dp" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -254,7 +257,8 @@
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
                     android:textColor="@color/primary"
-                    android:textSize="15dp" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
                 <Button
                     android:id="@+id/qiExpand"
                     android:layout_width="200dp"
@@ -295,7 +299,8 @@
                     android:textAlignment="textStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Display4"
                     android:textColor="@color/primary"
-                    android:textSize="15dp" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
                 <Button
                     android:id="@+id/mlExpand"
                     android:layout_width="200dp"

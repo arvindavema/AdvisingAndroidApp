@@ -589,10 +589,8 @@ Students must fulfill their computer science upper level course requirements fro
     <li>Completion of MATH 140 with a minimum grade of C-</li>\n
     <li>A minimum grade point average of 2.7 in all courses taken at the University of Maryland and all other institutions</li>\n
     * Indicates an Exemption Exam is available for this course.\n\n
-
     <b><i>75-Credit Benchmark Requirements</i></b>\n
     All students will undergo a benchmark review at 75 credits or after their second semester in the major (whichever comes later). Students in the major are required to complete the following courses:\n
-
     <li>Completion of CMSC 330 with a minimum grade of C-</li>\n
     <li>Completion of CMSC 351 with a minimum grade of C-</li>\n
     <li>Completion of a STAT4XX course (prerequisite: MATH141) with a minimum grade of C- or MATH/AMSC/STAT course (prerequisite: MATH141) with a minimum grade of C-</li>\n
@@ -606,6 +604,33 @@ Students must fulfill their computer science upper level course requirements fro
     <font size="12">If you have been admitted to the University of Maryland and have completed computer science coursework at a previous institution or have prior programming experience, please read more about exemption exams prior to attending orientation. Depending on your scores, you may be able to exempt out of one or more introductory computer science course(s). Once you start classes at UMD, you will be ineligible to take these exams.</font>\n\n\n\n
     <font size="10">General Questions? Contact ugrad@cs.umd.edu (please include your full name &amp; UID) or 301-405-2672</font>\n
     <font size="10">Admission Questions? Contact ApplyMaryland@umd.edu</font>\n</string>
-
->>>>>>> cdb381d12437207a3f2d362d3376684fb9c6e783
+    <string name="inText"><font size="20"><b>Admissions Information</b></font>\n\n
+    <font size="15"><b><i>Student Qualifications</i></b></font>\n
+<font size="12">Students are required to complete the following gateway criteria to be eligible for the major:\n
+        <li>Completion of CMSC 131 or CMSC 133 with a minimum grade of C-*</li>\n
+<li>Completion of CMSC 132 with a minimum grade of C-*</li>\n
+<li>Completion of MATH 140 with a minimum grade of C-*</li>\n
+<li>A minimum grade point average of 2.7 in all courses taken at the University of Maryland and all other institutions</li>\n\n
+    * Indicates an Exemption Exam is available for this course. These exams are only available to students before they matriculate to the University of Maryland.\n\n</font>
+        <font size="15"><b><i>75-Credit Benchmark Requirements</i></b></font>\n
+<font size="12">All students will undergo a benchmark review at 75 credits. Students in the major are required to complete the following courses:\n
+        <li>Completion of CMSC 330 with a minimum grade of C-</li>\n
+<li>Completion of CMSC 351 with a minimum grade of C-</li>\n
+<li>Completion of a STAT4XX course (prerequisite: MATH141) with a minimum grade of C- or MATH/AMSC/STAT course (prerequisite: MATH141) with a minimum grade of C-</li>\n
+<li>A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions</li>\n\n</font>
+<font size="15"><b><i>Application Process</i></b></font>\n
+<font size="12">Per the Office of Undergraduate Admissions, the LEP application is made available following the add/drop deadline of each semester. Internal Transfer students should complete the application during the semester in which they complete all required gateway courses or at the end of the semester. For more information, including application deadlines, visit the Undergraduate Admissions Current Student LEP Admissions page.\n\n
+<b>Important Note:</b> If you are completing CMSC132 over the summer session, you are not eligible for the June deadline. You should apply for the January deadline.</font>\n\n
+<font size="15"><b><i>LEP Guidelines</i></b></font>\n
+<font size="12">The following guidelines pertain to all Limited Enrollment Programs\n
+        <li>Only one gateway or performance review course may be repeated to earn the required grade (C- or higher) and that course may only be repeated once. When more than one course can satisfy a gateway requirement, taking a second course from the list will count as a repeat. (Please note that a grade of "W" is considered an attempt.)</li>\n
+<li>Students may apply only once to an LEP.</li>\n
+<li>Students who were directly admitted and fail to meet the performance review criteria will be dismissed from the major and may not reapply.</li>\n
+<li>Students must maintain a minimum cumulative GPA of 2.00 after admission to an LEP. Failure to do so will result in dismissal from the major.</li>\n\n</font>
+<font size="15"><b><i>Admissions Decisions</i></b></font>\n
+<font size="12">If you have been admitted to the Computer Science major as an internal transfer student, an email will be sent to your email of record, with steps to complete the major change process. These steps must be completed prior to the start of the upcoming semester. You will receive permission for your next semester CMSC coursework when you are accepted to the Computer Science major. We ask that you do not fill out the non-major request form.\n
+<i>You will receive permission for your CMSC coursework when you are accepted to the Computer Science major. We ask that you do not fill out the non-major request form.</i></font>\n\n
+<font size="15"><b><i>Course Permissions</i></b></font>\n
+<font size="12">Internal transfer students applying for the Computer Science LEP will receive permissions for courses once they are accepted into the Computer Science major. We ask that students do not fill out the non-major request form. We cannot grant permissions prior to your registration date.\n\n
+    <i>For summer courses: If you are applying for the Computer Science LEP by the fifth business day of June and wish to take courses over the summer, you will fill out the non-major request form.</i></font></string>
 </resources>

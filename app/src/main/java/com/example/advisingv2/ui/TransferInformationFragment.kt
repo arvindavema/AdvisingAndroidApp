@@ -54,6 +54,17 @@ class TransferInformationFragment : Fragment() {
 				binding.exExpand.text = "Click Here To Learn More"
 			}
 		}
+		binding.inExpand.setOnClickListener {
+			if (binding.inInfo!!.visibility != View.VISIBLE) {
+				TransitionManager.beginDelayedTransition(binding.inTransferCard, AutoTransition())
+				binding.inInfo!!.visibility = View.VISIBLE
+				binding.inExpand.text = "Click Here To Minimize"
+			} else {
+				TransitionManager.beginDelayedTransition(binding.inTransferCard, AutoTransition())
+				binding.inInfo!!.visibility = View.GONE
+				binding.inExpand.text = "Click Here To Learn More"
+			}
+		}
 		return view
 	}
 	
