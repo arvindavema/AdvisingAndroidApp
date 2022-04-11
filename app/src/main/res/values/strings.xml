@@ -198,7 +198,7 @@
     All students, regardless of specialization, must complete 12 credit hours of 300 - 400 level courses in one discipline outside of Computer Science with a cumulative GPA of 1.7 or higher in this coursework. No course that is in, or crosslisted as, CMSC may be counted in this requirement (e.g., AMSC460). Only 1 independent study or experiential learning course may be used. Students who are pursuing a minor or a double major/dual degree may use those credits in this area with the exception of a few majors/disciplines (e.g., Information Science). Please consult with your advisor to ensure the courses you plan to take to ensure they will satisfy this requirement.\n</string>
     <string name="LEP"><font size="15"><b>Limited Enrollment Program (LEP) Benchmarks*</b></font>\n\n
     * These benchmarks apply to new freshman (matriculated Fall 2019 and later), new transfer students, and internal transfers changing majors within the University *\n\n
-    All students will undergo a benchmark review at 45 and 75 credits. Students in the major are required to complete the following courses:
+    All students will undergo a benchmark review at 45 and 75 credits. Students in the major are required to complete the following courses:\n
     <font size="13"><b><i>45-Credit Benchmark Requirements</i></b></font>\n
         <li>Completion of CMSC 131 with a minimum grade of C-</li>\n
         <li>Completion of CMSC 132 with a minimum grade of C-</li>\n
@@ -354,5 +354,29 @@ Students must fulfill their computer science upper level course requirements fro
     <b>Upper Level Elective Courses</b>\n
     Six credits from CMSC3XX or CMSC4XX excluding CMSC330 and CMSC351\n\n
     * Indicates this course has unique prerequisites.</string>
+    <string name="exText"><font size="20"><b>Computer Science Gateway Requirements\n\n</b></font>
+    Students are required to complete the following gateway criteria to be eligible for the major:\n
+    <li>Completion of CMSC 131 or CMSC 133 with a minimum grade of C-</li>\n
+    <li>Completion of CMSC 132 with a minimum grade of C-*</li>\n
+    <li>Completion of MATH 140 with a minimum grade of C-</li>\n
+    <li>A minimum grade point average of 2.7 in all courses taken at the University of Maryland and all other institutions</li>\n
+    * Indicates an Exemption Exam is available for this course.\n\n
+
+    <b><i>75-Credit Benchmark Requirements</i></b>\n
+    All students will undergo a benchmark review at 75 credits or after their second semester in the major (whichever comes later). Students in the major are required to complete the following courses:\n
+
+    <li>Completion of CMSC 330 with a minimum grade of C-</li>\n
+    <li>Completion of CMSC 351 with a minimum grade of C-</li>\n
+    <li>Completion of a STAT4XX course (prerequisite: MATH141) with a minimum grade of C- or MATH/AMSC/STAT course (prerequisite: MATH141) with a minimum grade of C-</li>\n
+    <li>A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions</li>\n\n
+    <font size="20"><b>Limited Enrollment Program (LEP) Guidelines</b></font>\n\n
+    <li>Only one gateway or performance review course may be repeated to earn the required grade (C- or higher) and that course may only be repeated once; this includes courses attempted at other institutions. When more than one course can satisfy a gateway requirement, taking a second course from the list will count as a repeat. (Please note that a grade of "W" is considered an attempt and must be repeated.)</li>\n
+    <li>Students may apply only once to an LEP.</li>\n
+    <li>Students who were directly admitted and fail to meet the performance review criteria will be dismissed from the major and may not reapply.</li>\n
+    <li>Students must maintain a minimum cumulative GPA of 2.00 after admission to an LEP. Failure to do so will result in dismissal from the major.</li>\n\n
+    <font size="20"><b>Exemption Exams</b></font>\n
+    <font size="12">If you have been admitted to the University of Maryland and have completed computer science coursework at a previous institution or have prior programming experience, please read more about exemption exams prior to attending orientation. Depending on your scores, you may be able to exempt out of one or more introductory computer science course(s). Once you start classes at UMD, you will be ineligible to take these exams.</font>\n\n\n\n
+    <font size="10">General Questions? Contact ugrad@cs.umd.edu (please include your full name &amp; UID) or 301-405-2672</font>\n
+    <font size="10">Admission Questions? Contact ApplyMaryland@umd.edu</font>\n</string>
 
 </resources>
