@@ -75,7 +75,7 @@
                         android:id="@+id/textViewSemHelp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
+                        android:layout_gravity="start"
                         android:layout_margin="8dp"
                         android:baselineAligned="true"
                         android:contentDescription="@string/course_name_hint"

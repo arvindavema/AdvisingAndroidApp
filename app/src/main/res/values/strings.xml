@@ -177,4 +177,182 @@
     <string name="grades">Grades</string>
     <string name="dashboardTitleTextView">Dashboard</string>
     <string name="upcomingTitle">Upcoming</string>
+    <string name="mathRequirements"><font size="15"><b>Required Lower Level Coursework</b></font>\n\n
+        <i>Math Requirements</i>:\n\n
+<li>MATH140 (4) Calculus 1</li>\n
+<li>MATH141 (4) Calculus 2</li>\n
+<li>STAT4XX (3) Must have a prerequisite of MATH141; Cannot be cross listed with CMSC</li>\n
+<li>MATH/STATXXX (3/4) Must have a prerequisite of MATH141; Cannot be cross listed with CMSC</li>\n\n
+
+*Data Science and Machine Learning Students must take MATH240 (4) Linear Algebra</string>
+    <string name="csRequirements"><i>Computer Science Requirements</i>:\n\n
+    <li>CMSC131 (4) Object-Oriented Programming I* OR CMSC133 (2) Object-Oriented Programming I Beyond Fun</li>\n
+    <li>CMSC132 (4) Object-Oriented Programming II</li>\n
+    <li>CMSC216 (4) introduction to Computer Systems*</li>\n
+    <li>CMSC250 (4) Discrete Structures*</li>\n
+    <li>CMSC330 (3) Organizations of Programming Languages</li>\n
+    <li>CMSC351 (3) Algorithms</li>\n
+    *An exemption exam is available for this course
+    </string>
+    <string name="upperLevel"><font size="15"><b>Upper Level Concentration:</b></font>\n\n
+    All students, regardless of specialization, must complete 12 credit hours of 300 - 400 level courses in one discipline outside of Computer Science with a cumulative GPA of 1.7 or higher in this coursework. No course that is in, or crosslisted as, CMSC may be counted in this requirement (e.g., AMSC460). Only 1 independent study or experiential learning course may be used. Students who are pursuing a minor or a double major/dual degree may use those credits in this area with the exception of a few majors/disciplines (e.g., Information Science). Please consult with your advisor to ensure the courses you plan to take to ensure they will satisfy this requirement.\n</string>
+    <string name="LEP"><font size="15"><b>Limited Enrollment Program (LEP) Benchmarks*</b></font>\n\n
+    * These benchmarks apply to new freshman (matriculated Fall 2019 and later), new transfer students, and internal transfers changing majors within the University *\n\n
+    All students will undergo a benchmark review at 45 and 75 credits. Students in the major are required to complete the following courses:
+    <font size="13"><b><i>45-Credit Benchmark Requirements</i></b></font>\n
+        <li>Completion of CMSC 131 with a minimum grade of C-</li>\n
+        <li>Completion of CMSC 132 with a minimum grade of C-</li>\n
+        <li>Completion of MATH 140 with a minimum grade of C-</li>\n
+        <li>A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions</li>\n\n
+    <font size="13"><b><i>75-Credit Benchmark Requirements</i></b></font>\n
+        <li>Completion of CMSC 330 with a minimum grade of C-</li>\n
+        <li>Completion of CMSC 351 with a minimum grade of C-</li>\n
+        <li>Completion of a STAT4XX course (prerequisite: MATH141) with a minimum grade of C- or MATH/AMSC/STAT course (prerequisite: MATH141) with a minimum grade of C-</li>\n
+        <li>A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions</li>\n
+    </string>
+    <string name="degReqs"><font size="15"><b>Degree Requirements:</b></font>\n\n
+    Students within the Computer Science major may choose to pursue our General Track or one of three specializations offered. Students are not required to pursue a specialization but may find one best fits their interests. Students interested in declaring a specialization should speak with their assigned academic advisor.\n\n
+    Students, regardless of specialization, are required to fulfill their computer science upper level course requirements from at least 3 areas. Courses that fall within each area are listed in the General Track degree requirements. The five areas are:\n Area 1: Systems\n Area 2: Information Processing\n Area 3: Software Engineering and Programming Languages\n Area 4: Theory\n Area 5: Numerical Analysis\n\n
+    For tracks requiring CMSC electives, three 1-credit CMSC STIC courses are equivalent to one 3-credit 300-400 level elective course. Visit UMD\'s official STICs website and our FAQ page for more information on STICs and see your assigned advisor for information on how STICs can fit into your specialization.\n</string>
+    <string name="areas">\nAt the upper level, students take five (5) CMSC 400 level courses from at least three different areas (see below) with no more than three courses in a given area. An additional two (2) CMSC electives, totaling 6 credits, are also required. If students take more than three courses from an area, the additional course(s) will be counted as upper level computer science electives.\n\n
+    <b>Area 1: Systems</b>\n
+    <li>CMSC 411 (3) Computer Systems Architecture\n</li>
+    <li>CMSC 412 (4) Operating Systems *\n</li>
+    <li>CMSC 414 (3) Computer and Network Security\n</li>
+    <li>CMSC 416 (3) Introduction to Parallel Computing\n</li>
+    <li>CMSC 417 (3) Computer Networks\n</li>
+    <li>CMSC 498X (3) Selected Topics in Computer Science; Introduction to Software-defined Radio and Wireless Communications (course will fulfill requirement for students who are enrolled the course in Fall 2018 or Fall 2019 semester *only*) or\n</li>
+    <li>CMSC 498X* (3) Selected Topics in Computer Science; Introduction to Parallel Computing (course will fulfill requirement for students who are enrolled the course in Fall 2020 semester *only*)\n</li>
+    <li>CMSC 498K* (3) Big Data Systems (course will fulfill requirement for students who are enrolled in the course in Spring 2018 or Spring 2019 *only*)\n\n</li>
+    Students may not receive credit for both iterations of CMSC 498X at this time.\n\n
+
+    <b>Area 2: Information Processing</b>\n
+    <li>CMSC 420 (3) Data Structures\n</li>
+    <li>CMSC 421 (3) Introduction to Artificial Intelligence\n</li>
+    <li>CMSC 422 (3) Machine Learning *\n</li>
+    <li>CMSC 423 (3) Bioinformatic Algorithms, Databases, and Tools\n</li>
+    <li>CMSC 424 (3) Database Design\n</li>
+    <li>CMSC 426 (3) Computer Vision *\n</li>
+    <li>CMSC 427 (3) Computer Graphics *\n</li>
+    <li>CMSC 470 (3) Introduction to Natural Language Processing *\n</li>
+    <li>CMSC 471 (3) Introduction to Data Visualization (Area 2 OR Area 3)\n</li>
+    <li>CMSC 498F (3) Selected Topics in Computer Science; Advances in XR (course will fulfill requirement for students who are enrolled the course in Spring 2022 semester *only*)\n</li>
+    <li>CMSC 498V (3) Advanced Topics in Machine Learning (course will fulfill requirement students who are enrolled in the course in Fall 2018 *only*)\n\n</li>
+
+    <b>Area 3: Software Engineering and Programming Languages</b>\n
+    <li>CMSC 430 (3) Introduction to Compilers\n</li>
+    <li>CMSC 433 (3) Programming Language Technologies and Paradigms\n</li>
+    <li>CMSC 434 (3) Introduction to Human-Computer Interaction\n</li>
+    <li>CMSC 435 (3) Software Engineering *\n</li>
+    <li>CMSC 436 (3) Hand Held Programming Devices\n</li>
+    <li>CMSC 471 (3) Introduction to Data Visualization (Area 2 OR Area 3)\n\n</li>
+
+    <b>Area 4: Theory</b>\n
+    <li>CMSC 451 (3) Design and Analysis of Computer Algorithms\n</li>
+    <li>CMSC 452 (3) Elementary Theory of Computation\n</li>
+    <li>CMSC 454 (3) Algorithms for Data Science\n</li>
+    <li>CMSC 456 (3) Cryptology *\n</li>
+    <li>CMSC 457 (3) Introduction to Quantum Computing\n</li>
+    <li>CMSC 474 (3) Introduction to Computational Game Theory\n\n</li>
+
+    <b>Area 5: Numerical Analysis (choose one)</b>\n
+    <li>CMSC 460 (3) Computational Methods (credit will only be given for CMSC 460 or CMSC 466) *\n</li>
+    <li>CMSC 466 (3) Introduction to Numerical Analysis (credit will only be given for CMSC 466 or CMSC 460) *\n\n</li>
+
+    <b>CMSC Upper Level Electives</b>\n
+    These courses do not count toward a distributive area for the General Track. If you have any questions about what courses will satisfy distributive area requirements, consult with your assigned academic advisor.\n/n
+    <li>CMSC 320 (3) Introduction to Data Science\n</li>
+    <li>CMSC 335 (3) Web Application Development with JavaScript (formerly CMSC398N)\n</li>
+    <li>CMSC 388 or 389 (1) Student Initiated Courses (STICs)\n</li>
+    <li>CMSC 389N (3) Special Topics in Computer Science; Introduction to PHP &amp; JavaScript\n</li>
+    <li>CMSC 425 (3) Game Programming *\n</li>
+    <li>CMSC 472 (3) Introduction to Deep Learning *\n</li>
+    <li>CMSC 473 (3) Capstone in Machine Learning *\n</li>
+    <li>CMSC 475 (3) Combinatorics and Game Theory *\n</li>
+    <li>CMSC498 (1 - 3) Special Topics in Computer Science courses not otherwise listed in a distributive area\n</li>
+    <li>CMSC 498A (1 - 3) Selected Topics in Computer Science: Independent Study\n</li>
+    <li>CMSC 499A (1 - 3) Independent Undergraduate Research\n\n</li>
+
+    * Indicates this course has unique prerequisites.</string>
+    <string name="cyberText">\nStudents looking to pursue the cybersecurity specialization are required to complete the lower level courses (MATH140, MATH141, CMSC131, CMSC132, CMSC216, CMSC250), the additional required courses (CMSC330, CMSC351, MATH/STATXXX and STAT4xx beyond MATH141), and the upper level concentration. The difference in the specialization is the upper level computer science courses.\n
+Students must fulfill their computer science upper level course requirements from at least 3 areas. Students may fulfill an area requirement under the Upper Level Elective Courses requirement. Courses that fall within each area are listed in the CS Distributive Areas and Electives document.\n\n
+    <b>Required:\n</b>
+    <li>CMSC 414 (3) Computer and Network Security</li>\n
+    <li>CMSC 456 (3) Cryptology *</li>\n\n
+    <b>Choose 4 courses from:\n</b>
+    <li>CMSC 411 (3) Computer Systems Architecture</li>\n
+    <li>CMSC 412 (4) Operating Systems *</li>\n
+    <li>CMSC 417 (3) Computer Networks</li>\n
+    <li>CMSC 430 (3) Introduction to Compilers</li>\n
+    <li>CMSC 433 (3) Programming Language Technologies and Paradigms</li>\n
+    <li>CMSC 451 (3) Design and Analysis of Computer Algorithms</li>\n\n
+    <b>Upper Level Elective Courses\n</b>
+    Students must select 3 credits from CMSC 300- or 400-level coursework (not eligible, CMSC330 and CMSC351)\n\n
+    * Indicates this course has unique prerequisites.</string>
+    <string name="dsText">\nStudents looking to pursue the data science specialization are required to complete the lower level courses (MATH140, MATH141, CMSC131, CMSC132, CMSC216, CMSC250), the additional required courses (CMSC330, CMSC351, STAT400 and MATH240), and the upper level concentration requirements. The difference in the specialization is the upper level computer science courses.\n
+Students must fulfill their computer science upper level course requirements from at least 3 areas. Students may fulfill an area requirement under the Upper Level Elective Courses requirement. Courses that fall within each area are listed in the CS Distributive Areas and Electives document.\n\n
+    <b>Required:\n</b>
+    <li>MATH 240 (4) Linear Algebra</li>\n
+    <li>STAT 400 (3) Applied Probability and Statistics I</li>\n
+    <li>CMSC 320 (3) Introduction to Data Science</li>\n
+    <li>CMSC 422 (3) Introduction to Machine Learning *</li>\n
+    <li>CMSC 424 (3) Database Design</li>\n\n
+    <b>Choose 1 course from:</b>\n
+    <li>CMSC 402 (3) Bioinformatic Algorithms &amp; Methods for Functional Genomics and Proteomics</li>\n
+    <li>CMSC 420 (3) Data Structures</li>\n
+    <li>CMSC 421 (3) Introduction to Artificial Intelligence</li>\n
+    <li>CMSC 423 (3) Bioinformatic Algorithms, Databases, and Tools</li>\n
+    <li>CMSC 425 (3) Game Programming *</li>\n
+    <li>CMSC 426 (3) Computer Vision</li>\n
+    <li>CMSC 427 (3) Computer Graphics *</li>\n
+    <li>CMSC 470 (4) Natural Language Processing *</li>\n\n
+    <b>Choose 1 course from:\n</b>
+    <li>CMSC 451 (3) Design and Analysis of Computer Algorithms</li>\n
+    <li>CMSC 454 (3) Algorithms for Data Science</li>\n
+    <li>CMSC 460 (3) Computational Methods</li>\n\n
+    <b>Choose 2 courses from:\n</b>
+    <li>CMSC 411 (3) Computer Systems Architecture</li>\n
+    <li>CMSC 412 (4) Operating Systems *</li>\n
+    <li>CMSC 414 (3) Computer and Network Security</li>\n
+    <li>CMSC 417 (3) Computer Networks</li>\n
+    <li>CMSC 430 (3) Introduction to Compilers</li>\n
+    <li>CMSC 433 (3) Programming Language Technologies and Paradigms</li>\n
+    <li>CMSC 434 (3) Introduction to Human-Computer Interaction</li>\n
+    <li>CMSC 435 (3) Software Engineering *</li>\n\n
+    * Indicates this course has unique prerequisites.</string>
+    <string name="qiText">\nStudents looking to pursue the quantum information specialization are required to complete the lower level courses (MATH140, MATH141, CMSC131, CMSC132, CMSC216, CMSC250), the additional required courses (CMSC330, CMSC351, STAT4xx with a MATH141 prerequisite, and MATH240), and the upper level concentration requirements. The difference in the specialization is the upper level computer science courses. Students must fulfill their computer science upper level course requirements from at least 3 areas.\n\n
+Students must fulfill their computer science upper level course requirements from at least 3 areas. Students may fulfill an area requirement under the Upper Level Elective Courses requirement. Courses that fall within each area are listed in the CS Distributive Areas and Electives document.\n\n
+    <b>Required:\n</b>
+    <li>MATH 240 (4) Linear Algebra</li>\n
+    <li>CMSC 457 (3) Introduction to Quantum Computing *</li>\n
+    <li>PHYS 467 (3) Introduction to Quantum Technology *</li>\n\n
+    <b>Choose 4 courses from:\n</b>
+    <li>CMSC 411 (3) Computer Systems Architecture</li>\n
+    <li>CMSC 412 (4) Operating Systems *</li>\n
+    <li>CMSC 417 (3) Computer Networks</li>\n
+    <li>CMSC 430 (3) Introduction to Compilers</li>\n
+    <li>CMSC 433 (3) Programming Language Technologies and Paradigms</li>\n
+    <li>CMSC 451 (3) Design and Analysis of Computer Algorithms</li>\n\n
+    <b>Upper Level Elective Courses</b>\n
+    Students must select 3 credits from CMSC 300- or 400-level coursework (not eligible, CMSC330 and CMSC351)\n\n
+    * Indicates this course has unique prerequisites.</string>
+    <string name="mlText">\nStudents looking to pursue the machine learning specialization are required to complete the lower level courses (MATH140, MATH141, CMSC131, CMSC132, CMSC216, CMSC250), the additional required courses (CMSC330, CMSC351, STAT4xx with a MATH141 prerequisite, and MATH240), and the upper level concentration requirements. The difference in the specialization is the upper level computer science courses. Students must fulfill their computer science upper level course requirements from at least 3 areas.\n
+Students must fulfill their computer science upper level course requirements from at least 3 areas. Students may fulfill an area requirement under the Upper Level Elective Courses requirement. Courses that fall within each area are listed in the CS Distributive Areas and Electives document.\n\n
+    <b>Required:\n</b>
+    <li>MATH 240 (4) Linear Algebra</li>\n
+    <li>CMSC 320 (3) Introduction to Data Science</li>\n
+    <li>CMSC 421 (3) Introduction to Artificial Intelligence</li>\n
+    <li>CMSC 422 (3) Introduction to Machine Learning *</li>\n\n
+    <b>Choose 2 courses from:\n</b>
+    <li>CMSC 426 (3) Computer Vision *</li>\n
+    <li>CMSC/AMSC 460 (3) Computational Methods * <b>or</b> CMSC/AMSC 466 (3) Introduction to Numerical Analysis I * <b>or</b> MATH 401 (3) Applications of Linear Algebra *</li>\n
+    <li>CMSC 470 (3) Natural Language Processing *</li>\n
+    <li>CMSC 472 (3) Introduction to Deep Learning (formerly CMSC 498L)</li>\n
+    <li>CMSC 473 (3) Capstone in Machine Learning (formerly CMSC 498P)</li>\n
+    <li>CMSC 474 (3) Introduction to Computational Game Theory</li>\n
+    <li>CMSC 476 (3) Robotics and Perception</li>\n\n
+    <b>Upper Level Elective Courses</b>\n
+    Six credits from CMSC3XX or CMSC4XX excluding CMSC330 and CMSC351\n\n
+    * Indicates this course has unique prerequisites.</string>
+
 </resources>
