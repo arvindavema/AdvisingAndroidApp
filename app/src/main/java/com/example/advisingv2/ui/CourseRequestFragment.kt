@@ -1,11 +1,15 @@
 package com.example.advisingv2.ui
 
+import android.app.AlertDialog
+import android.content.DialogInterface
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.advisingv2.R
+import com.example.advisingv2.databinding.FragmentCourseRequestBinding
 
 
 // TODO: this is for the course request form implementation
@@ -25,6 +29,11 @@ class CourseRequestFragment : Fragment() {
 	// TODO: Rename and change types of parameters
 	private var param1: String? = null
 	private var param2: String? = null
+
+	private var _binding: FragmentCourseRequestBinding? = null
+
+	private val binding: FragmentCourseRequestBinding
+		get() = _binding!!
 	
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
@@ -39,7 +48,13 @@ class CourseRequestFragment : Fragment() {
 		savedInstanceState: Bundle?
 	): View? {
 		// Inflate the layout for this fragment
-		return inflater.inflate(R.layout.fragment_course_request, container, false)
+		_binding = FragmentCourseRequestBinding.inflate(inflater, container, false)
+		val view = binding.root
+
+		binding.subCourseReq.setOnClickListener {
+			Toast.makeText(context, "Course Request Submitted", Toast.LENGTH_SHORT).show()
+		}
+		return view
 	}
 	
 	companion object {

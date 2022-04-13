@@ -633,4 +633,28 @@ Students must fulfill their computer science upper level course requirements fro
 <font size="15"><b><i>Course Permissions</i></b></font>\n
 <font size="12">Internal transfer students applying for the Computer Science LEP will receive permissions for courses once they are accepted into the Computer Science major. We ask that students do not fill out the non-major request form. We cannot grant permissions prior to your registration date.\n\n
     <i>For summer courses: If you are applying for the Computer Science LEP by the fifth business day of June and wish to take courses over the summer, you will fill out the non-major request form.</i></font></string>
+    <string name="courseReqMaj"><font size="20"><b><i>CS Majors\n</i></b></font>
+<li>Please contact your assigned academic advisor to request 3-credit permissions for Summer 2022 courses.</li>\n
+<li>Your Academic Advisor will provide instructions on how to request 3-credit permissions for Fall 2022 courses in early March.</li>\n
+<li>The Third Permission form is currently closed.</li>\n</string>
+    <string name="courseReqMin"><font size="20"><b><i>CS Minors\n</i></b></font>
+Please use the form below to request your courses</string>
+    <string name="courseReqCE"><font size="20"><b><i>Non-Majors: CE Students\n</i></b></font>
+CE Majors should contact their assigned academic advisors to request 3-credit permissions for Summer 2022 and Fall 2022 courses.</string>
+    <string name="courseReqIMD"><font size="20"><b><i>Non-Majors: IMD Students\n</i></b></font>
+<li>IMD-BS majors should contact their assigned IMD academic advisors to request CS permissions for Summer 2022 and Fall 2022 courses.</li>\n
+<li>IMD-BA majors should follow the Non-Major: Undergraduate Student process to request CS course permissions.</li>\n
+<li>If you are a CS and IMD double major, please follow the normal CS Major course permission process.</li>\n</string>
+    <string name="courseReqUnd"><font size="20"><b><i>Non-Majors: Undergraduate Students\n</i></b></font>
+Please use the form below to request your courses\n
+* Please note: Course permissions for non majors will be granted on or around the first day of classes for the term. You will not be able to register for the courses during your assigned registration appointment. No exceptions can be made to this policy.\n</string>
+    <string name="courseReqGrad"><font size="20"><b><i>Non-Majors: Graduate and Advanced Special Students\n</i></b></font>
+Non Major Graduate and Advanced Special students MUST complete the following steps to request permission for CMSC320 or a 400 level CMSC course. Instructor permission is not required for CMSC131 through CMSC351.\n\n
+Be advised that non major graduate and advanced special students will only be granted permission for one 300  or 400 level (not including CMSC330 or CMSC351) CMSC course. No exceptions. If you submit multiple requests, we will honor your most recent submission. Email questions to ugrad@cs.umd.edu.\n\n
+Please contact the instructor to obtain written permission to take their course. In your email, you should include:\n
+<li>Your name, 9 digit UID, and your program of study</li>\n
+<li>Your reason for requesting course permission</li>\n
+<li>Your CMSC and MATH background/coursework</li>\n
+<li>Forward the instructor\'s written permission to ugrad@cs.umd.edu</li>\n\n
+        *Please note: Course permissions for non-majors will be granted on or around the first day of classes for the term. You will not be able to register for the courses during your assigned registration appointment. No exceptions can be made to this policy</string>
 </resources>
