@@ -58,8 +58,8 @@ class GpaCalculatorFragment : Fragment() {
 				.setCancelable(true)
 				.setPositiveButton("Add",
 					DialogInterface.OnClickListener { _, _ ->
-						Toast.makeText(context, "Sem Dialog Add Pressed", Toast.LENGTH_SHORT)
-							.show()
+							Toast.makeText(context, "Sem Dialog Add Pressed", Toast.LENGTH_SHORT)
+								.show()
 					})
 				.setNegativeButton("Cancel", DialogInterface.OnClickListener { d, id ->
 					Toast.makeText(context, "Sem Dialog Cancelled", Toast.LENGTH_SHORT).show()

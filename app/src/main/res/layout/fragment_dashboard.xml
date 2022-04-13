@@ -1,60 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/dashboarLayout"
+    android:id="@+id/degreeFrameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashboardFragment">
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="true"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:isScrollContainer="true"
+    android:layoutDirection="inherit"
+    android:layoutMode="opticalBounds"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:textAlignment="viewStart"
+    android:verticalScrollbarPosition="defaultPosition"
+    app:layout_collapseMode="parallax"
+    tools:actionBarNavMode="tabs"
+    tools:context=".ui.DegreerequirementsFragment">
 
-    <ScrollView
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="4dp">
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Dashboard"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textColor="@color/primary"
+            android:textSize="24dp" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/dashboardTitleTextView"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-                android:textColor="@color/primary"
-                android:textSize="48sp" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/design_default_color_background"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="8dp">
 
-            <androidx.cardview.widget.CardView
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp"
-                app:cardPreventCornerOverlap="true"
-                app:contentPadding="4dp">
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints">
 
                     <TextView
-                        android:id="@+id/textViewCurrCourses"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Your Current Courses"
-                        android:textAlignment="viewStart"
-                        android:textSize="24sp" />
+                        android:text="CMSC434: Introduction to Human Computer Interaction\n"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                        android:textColor="@color/primary"
+                        android:textSize="20dp" />
 
                     <TextView
-                        android:id="@+id/textViewCurrentCourses"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Your " />
+                        android:text="Section 0301 - Spring 2022"
+                        android:textAlignment="center"
+                        android:textSize="15dp"/>
                 </LinearLayout>
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
-    </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
-</FrameLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:cardBackgroundColor="@color/design_default_color_background"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No More Courses to Show\n"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+                    android:textColor="@color/primary"
+                    android:textSize="15dp" />
+                <Button
+                    android:id="@+id/addCourse"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Add A Course"
+                    android:textSize="15dp" />
+                <TextView
+                    android:id="@+id/cyberInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cyberText"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
