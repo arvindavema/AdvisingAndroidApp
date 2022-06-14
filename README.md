@@ -12,6 +12,7 @@ The App is made of four parts that can be accessed via the drawer navigarion tha
 
 <p float="left" >
   The following is an image of a user's Dashboard which is located inside the drawer tab named Home. It provides shortcuts to important things such as their 40year plans, or their current class schedule. Tabs are also visible here and they were used to navigate to relevant tab while inside a drawer tab. The tabs are swipeable and highlight the tab text when the user is on a given page, 
+  <p float = "left">
   <img src="images/navDash.png" width="150">
   <img src="images/navHomeTab.png" width="150">
  <img src="images/home2.png" width="150">
