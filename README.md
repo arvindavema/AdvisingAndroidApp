@@ -53,14 +53,13 @@ Here is where the student can calculate their Semester and Year GPA based on the
   <img src="images/degree3.png" alt="" width="150">
 </p>
   
-  #### Transfer Student Info
+  #### Transfer Student Info 
  <img src="images/transferring.png" alt="" width="150">
 
   
-  #### Contacting Advisors
+  #### Contacting Advisors (unfinished)
  <img src="images/contacts.png" alt="" width="150">
 
- 
  
  ## Part 3: CMSC 300 level - 400 level course permission form
  All students that want to take a 3XX or 4XX CMSC course bust obtain permission from their advisors and this is currently done via email communication and google forms. This feature allows students to fill the form out in the app with access to the course information that they find in testudo under the Course Information tab. 
@@ -71,12 +70,13 @@ Here is where the student can calculate their Semester and Year GPA based on the
     <img src="images/form2.png" alt="" width="150">  
   <img src="images/form3.png" alt="" width="150">
   </p>
-  # TODO
   
-  ## 1. Course Information
-  Need to use umd.io to fetch all of the current class data for the current semester. Then need to take the json and render it into a searchable list of courses that provide all the information found at UMD's Testudo schedule of class webpage (sections, timings, instructors, etc).
-   <p float="left">
+  ## Part 4. Course Information (unfinished)
+Shows all courses being offered and their data.
+
   <img src="images/courselist.png" alt="" width="150">
   </p>
-
  
+ 
+ # TODO: 
+ - fix the formatting of two screens and fetch data from umd.io
