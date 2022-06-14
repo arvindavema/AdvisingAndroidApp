@@ -11,8 +11,7 @@ I organized the many different parts of the app by implementing a drawer navigat
 The App is made of four parts that can be accessed via the drawer navigarion that is present throughout the whole app. The five items in the drawer all take the user to a different part of the app.
 
 #### Dashboard
-
-  The following is an image of a user's Dashboard which is located inside the drawer tab named Home. It provides shortcuts to important things such as their 40year plans, or their current class schedule. Tabs are also visible here and they were used to navigate to relevant tab while inside a drawer tab. The tabs are swipeable and highlight the tab text when the user is on a given page.
+ The following is an image of a user's Dashboard which is located inside the drawer tab named Home. It provides shortcuts to important things such as their 40year plans, or their current class schedule. Tabs are also visible here and they were used to navigate to relevant tab while inside a drawer tab. The tabs are swipeable and highlight the tab text when the user is on a given page.
   <p float="left" >
   <img src="images/navDash.png" width="150">
   <img src="images/navHomeTab.png" width="150">
@@ -20,18 +19,15 @@ The App is made of four parts that can be accessed via the drawer navigarion tha
 </p>
 
 #### Calendar
-
   This coming advising events and any appointments with advising the user may have. Users can also select a day and make an appointment based on availability.
     <p float="left">
-  <img src="images/grades.png" alt="grades" width="150">
-  
+  <img src="images/calendar.png" alt="cal" width="150">
 </p>
 
 #### Grades
-
 Here is where the student can calculate their Semester and Year GPA based on the courses they add on their dashboard. Users can also choose to calculate hypothetical GPA and provide random courses. 
 <p float="left">
-  <img src="images/inbox.png" width=150>
+  <img src="images/grades.png" width=150>
   </p>
   
   
@@ -58,14 +54,12 @@ Here is where the student can calculate their Semester and Year GPA based on the
 </p>
   
   #### Transfer Student Info
-   <p float="left">
-  <img src="images/transferring.png" alt="" width="150">
-  </p>
+ <img src="images/transferring.png" alt="" width="150">
+
   
   #### Contacting Advisors
-   <p float="left">
-  <img src="images/contacts.png" alt="" width="150">
-  </p>
+ <img src="images/contacts.png" alt="" width="150">
+
  
  
  ## Part 3: CMSC 300 level - 400 level course permission form
